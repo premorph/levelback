@@ -7,15 +7,15 @@ const eventSchema = new Schema(
     dateEvent: { type: Date, require: true },
     tables: [
       {
-        seat_price: { type: Number, require: true },
-        seat_qty: { type: Number, require: true },
-        seat_category: { type: String, require: true },
-        seat_map: [
+        table_price: { type: Number, require: true },
+        table_qty: { type: Number, require: true },
+        table_category: { type: String, require: true },
+        table_map: [
           {
-            seat_label: { type: String, require: true },
+            table_label: { type: String, require: true },
             layout: { type: String, require: true },
             chairs: { type: Number, require: true },
-            // isReserve: {type:Boolean, require:true}
+            isReserve: { type: Types.ObjectId },
           },
         ],
       },

@@ -1,3 +1,3 @@
 {
-  "exportall.config.folderListener": ["/src/services"]
+  "exportall.config.folderListener": ["/src/services", "/src/interfaces"]
 }
