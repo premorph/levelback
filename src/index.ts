@@ -1,7 +1,7 @@
 import express from 'express'
 import DB from './config/mongo/mongo.config'
 import { SqlDB } from './config/sql/sql.config'
-import { router } from './routes'
+import { router } from './controllers'
 import { logger } from './utils/logger.utils'
 import { PORT, ENGINE } from './enviroments/env.enviroments'
 const app = express()
