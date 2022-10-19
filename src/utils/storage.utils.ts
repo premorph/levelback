@@ -7,6 +7,11 @@ const storage = diskStorage({
   },
   filename: function (req:Request, file:any, cb:any) {
     const ext = file.originalname.split(".").pop();
+    declare type extP = "jpg"| "png" |"jpeg";
+    if(ext!== typeof extP)
+    {
+      cb(new Error("extension no permitida"))
+    }
     const filename = `file-${Date.now()}.${ext}`;
     cb(null, filename);
   },
