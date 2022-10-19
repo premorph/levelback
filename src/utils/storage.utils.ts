@@ -1,4 +1,4 @@
-import { NextFunction, Request } from 'express';
+import {  Request } from 'express';
 import multer,{diskStorage} from 'multer'
 const storage = diskStorage({
   destination: function (req:Request, file:any, cb:any) {
@@ -8,6 +8,11 @@ const storage = diskStorage({
   filename: function (req:Request, file:any, cb:any) {
     const ext = file.originalname.split(".").pop();
     const filename = `file-${Date.now()}.${ext}`;
+    const extArr = ["jpg","png","jpeg","JPEG","PNG","JPG"]
+    if(extArr.indexOf(ext)<0)
+    {
+      cb(new Error("Archivo no permitido"))
+    }
     cb(null, filename);
   },
 });
