@@ -4,5 +4,5 @@ import { uploadMiddleware } from '../utils/storage.utils';
 
 const router:Router =Router()
 
-router.post('',uploadMiddleware.single('myFile'))
+router.post('',uploadMiddleware.single('levelFile'),)
 export {router}

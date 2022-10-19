@@ -1,4 +1,4 @@
-import { NextFunction, Request } from 'express';
+import {  Request } from 'express';
 import multer,{diskStorage} from 'multer'
 const storage = diskStorage({
   destination: function (req:Request, file:any, cb:any) {

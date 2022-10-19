@@ -1,4 +1,4 @@
-import { Request, Response } from "express"
+import {  Response } from "express"
 
 declare type status = 200 | 400 | 500
 const httpResponses = (
