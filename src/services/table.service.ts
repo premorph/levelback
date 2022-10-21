@@ -5,9 +5,10 @@ import { TableModel } from '../models/nosql/table.model'
 class TableService {
     CreateTableTemplate(req: Request, res: Response) {
       try {
-        const body = matchedData(req.body)
-        const table = TableModel.create(body);
-        res.send(table)
+          console.log(req)
+        //const body = matchedData(req.body)
+       // const table = TableModel.create(body);
+        //res.send(table)
       } catch (error) {
         res.send(error)
       }

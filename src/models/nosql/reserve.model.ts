@@ -15,7 +15,7 @@ const reserveSchema = new Schema<IReserve>(
         isCheck: { type: Boolean, default: false },
         checkauthor: { type: Schema.Types.ObjectId, ref: 'checkauth' },
     },
-    { timestamps: true, versionKey: true }
+    { timestamps: true, versionKey: false }
 )
 reserveSchema.static('findReserveById', function (id) {
     const joinData = this.aggregate([

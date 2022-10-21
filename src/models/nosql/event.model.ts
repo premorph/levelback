@@ -1,4 +1,4 @@
-import { model, Schema, Types } from 'mongoose'
+import { model, Schema } from 'mongoose'
 
 const eventSchema = new Schema(
   {
@@ -15,14 +15,14 @@ const eventSchema = new Schema(
             table_label: { type: String, require: true },
             layout: { type: String, require: true },
             chairs: { type: Number, require: true },
-            isReserve: { type: Types.ObjectId },
+              isReserve: { type: Schema.Types.ObjectId },
           },
         ],
       },
     ],
     author: {
-      types: Types.ObjectId,
-      require: true,
+      types: Schema.Types.ObjectId,
+    
     },
   },
   {

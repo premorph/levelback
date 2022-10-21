@@ -20,7 +20,7 @@ function loadRoutes(filename: string): void {
   const name = removeExtension(filename)
   if (name !== 'index') {
     import(`./${filename}`).then((routerModule) =>
-      router.use(`${name}`, routerModule.router)
+      router.use(`/${name}`, routerModule.router)
     )
   }
 }
