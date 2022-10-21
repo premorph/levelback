@@ -5,14 +5,15 @@ const storage = diskStorage({
     const pathStorage = `${__dirname}/../storage`;
     cb(null, pathStorage);
   },
+
   filename: function (req:Request, file:any, cb:any) {
     const ext = file.originalname.split(".").pop();
-    declare type extP = "jpg"| "png" |"jpeg";
-    if(ext!== typeof extP)
-    {
-      cb(new Error("extension no permitida"))
-    }
     const filename = `file-${Date.now()}.${ext}`;
+    const extArr = ["jpg","png","jpeg","JPEG","PNG","JPG"]
+    if(extArr.indexOf(ext)<0)
+    {
+      cb(new Error("Archivo no permitido"))
+    }
     cb(null, filename);
   },
 });

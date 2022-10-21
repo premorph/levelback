@@ -1,5 +1,22 @@
-import { model, Schema } from "mongoose";
 
-const storageSchema= new Schema<IStorage>({})
+import { Model, Schema, model } from 'mongoose'
+import { IStorage } from '../../interfaces/storage.interface'
+import mongooseDelete from 'mongoose-delete';
 
-export const StorageModel = model<IStorage>('storage',storageSchema)
+const storageSchema = new Schema<IStorage>(
+    {
+        filename: { type: String, require: true },
+        fileOwner: { type: Schema.Types.ObjectId, ref: 'fileOwner' },
+        typeF: { type: String },
+    },
+    {
+        timestamps: true,
+        versionKey: true,
+    }
+)
+
+storageSchema.plugin(mongooseDelete, { overrideMethods: "all" });
+export const StorageModel = model<IStorage>(
+    'storage',
+    storageSchema
+)
