@@ -8,11 +8,6 @@ const storage = diskStorage({
 
   filename: function (req:Request, file:any, cb:any) {
     const ext = file.originalname.split(".").pop();
-
-    if(ext!== typeof extP)
-    {
-      cb(new Error("extension no permitida"))
-    }
     const filename = `file-${Date.now()}.${ext}`;
     const extArr = ["jpg","png","jpeg","JPEG","PNG","JPG"]
     if(extArr.indexOf(ext)<0)
