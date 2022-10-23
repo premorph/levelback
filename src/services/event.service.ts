@@ -1,6 +1,6 @@
-import { Request, Response, NextFunction } from 'express'
+import { Request, Response } from 'express'
 import { matchedData } from 'express-validator'
-import { Error } from 'mongoose'
+import { CallbackError, Error } from 'mongoose'
 import { IEvent } from '../interfaces/Event.interface'
 import { EventModel } from '../models/nosql/event.model'
 
@@ -22,18 +22,17 @@ class EventService {
       return res.status(200).json({ ok: true, data: result })
     })
   }
-  CreateEvent(req: Request, res: Response, next: NextFunction) {
+  CreateEvent(req: Request, res: Response) {
     try {
       const event = matchedData(req)
-      const data = EventModel.create({ event }, (err, result) => {
+      EventModel.create({ event }, (err:CallbackError, result:IEvent) => {
         if (err) {
-          return res.status(400).json({ ok: false, Error: err })
+        res.status(400).json({ ok: false, Error: err })
         }
-        next(result)
+        res.status(200).send(result)
       })
-      res.status(200).send(data)
     } catch (error) {
-      return res.status(401).json({
+      res.status(401).json({
         ok: false,
         error,
       })

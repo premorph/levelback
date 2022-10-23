@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 import { model, Schema } from 'mongoose'
+=======
+import { model, Schema, Types } from 'mongoose'
+import { IEvent } from '../../interfaces'
+>>>>>>> 0c243c1 (review controllers)
 
-const eventSchema = new Schema(
+const eventSchema = new Schema<IEvent>(
   {
     name: { type: String, require: true },
     image: { type: String, require: true },
@@ -22,7 +27,10 @@ const eventSchema = new Schema(
     ],
     author: {
       types: Schema.Types.ObjectId,
+<<<<<<< HEAD
     
+=======
+>>>>>>> 0c243c1 (review controllers)
     },
   },
   {
@@ -31,4 +39,4 @@ const eventSchema = new Schema(
   }
 )
 
-export const EventModel = model('event', eventSchema)
+export const EventModel = model<IEvent>('event', eventSchema)

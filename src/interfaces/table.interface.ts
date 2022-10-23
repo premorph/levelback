@@ -10,5 +10,4 @@ interface ItableMap{
   layout: string;
   chairs:number;
   isReserve:boolean
-
 }
