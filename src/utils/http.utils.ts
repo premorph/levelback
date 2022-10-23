@@ -7,8 +7,8 @@ const httpResponses = (
   message: string, 
   ok:boolean
 ) => {
-    res.status(status)
-    res.send({ok,message})
+    
+    res.status(status).send({ok,message})
 }
 
 export {httpResponses}

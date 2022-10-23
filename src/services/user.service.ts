@@ -3,7 +3,11 @@ import { matchedData } from 'express-validator'
 import { CallbackError } from 'mongoose'
 import { UserContract } from '../interfaces'
 import { UserModel } from '../models/nosql/user.model'
+<<<<<<< HEAD
 import { encrypt } from '../utils/'
+=======
+import { encrypt } from '../utils/bcrypt.utils'
+>>>>>>> 8cba15b (fixed json)
 
 class UserService implements UserContract {
     async CreateUser(req: Request, res: Response): Promise<void> {
