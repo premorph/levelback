@@ -1,0 +1,1553 @@
+
+[96mRequest: [93mGET [97m/api/v1/tables [90mat [37mThu Oct 20 2022 20:45:44 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[96mResponse: [33m404 [37m3.184 ms 
+
+[96mRequest: [93mGET [97m/api/v1/tables [90mat [37mThu Oct 20 2022 20:47:54 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[96mResponse: [33m404 [37m2.296 ms 
+
+[96mRequest: [93mGET [97m/api/v1/tables [90mat [37mThu Oct 20 2022 20:54:03 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[96mResponse: [33m404 [37m6.220 ms 
+
+[96mRequest: [93mGET [97m/api/v1/tables [90mat [37mThu Oct 20 2022 20:54:07 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[96mResponse: [33m404 [37m0.988 ms 
+
+[96mRequest: [93mGET [97m/api/v1/tables [90mat [37mThu Oct 20 2022 20:54:19 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[96mResponse: [33m404 [37m1.369 ms 
+
+[96mRequest: [93mPOST [97m/api/v1/tables [90mat [37mSat Oct 22 2022 21:02:00 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[96mResponse: [32m200 [37m5.053 ms 
+
+[96mRequest: [93mPOST [97m/api/v1/tables [90mat [37mSat Oct 22 2022 21:06:16 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"table_price": 500,[0m
+[97m	"table_qty": "10",[0m
+[97m	"table_category": "VIP",[0m
+[97m	"table_map": [[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[96mResponse: [32m200 [37m18.872 ms 
+
+[96mRequest: [93mGET [97m/api/v1/tables [90mat [37mSat Oct 22 2022 21:06:29 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"table_price": 500,[0m
+[97m	"table_qty": "10",[0m
+[97m	"table_category": "VIP",[0m
+[97m	"table_map": [[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"originalStack": "Error: \n    at model.Query._wrappedThunk [as _find] (/home/han/projects/angular/levelfood/back/node_modules/mongoose/lib/helpers/query/wrapThunk.js:27:28)\n    at /home/han/projects/angular/levelfood/back/node_modules/kareem/index.js:426:25\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)"[0m
+[97m}[0m
+[96mResponse: [32m200 [37m16.231 ms 
+
+[96mRequest: [93mGET [97m/api/v1/tables [90mat [37mSat Oct 22 2022 21:07:25 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"table_price": 500,[0m
+[97m	"table_qty": "10",[0m
+[97m	"table_category": "VIP",[0m
+[97m	"table_map": [[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"originalStack": "Error: \n    at model.Query._wrappedThunk [as _find] (/home/han/projects/angular/levelfood/back/node_modules/mongoose/lib/helpers/query/wrapThunk.js:27:28)\n    at /home/han/projects/angular/levelfood/back/node_modules/kareem/index.js:426:25\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)"[0m
+[97m}[0m
+[96mResponse: [32m200 [37m19.685 ms 
+
+[96mRequest: [93mGET [97m/api/v1/tables [90mat [37mSat Oct 22 2022 21:11:43 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"table_price": 500,[0m
+[97m	"table_qty": "10",[0m
+[97m	"table_category": "VIP",[0m
+[97m	"table_map": [[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"originalStack": "Error: \n    at model.Query._wrappedThunk [as _find] (/home/han/projects/angular/levelfood/back/node_modules/mongoose/lib/helpers/query/wrapThunk.js:27:28)\n    at /home/han/projects/angular/levelfood/back/node_modules/kareem/index.js:426:25\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)"[0m
+[97m}[0m
+[96mResponse: [32m200 [37m16.736 ms 
+
+[96mRequest: [93mGET [97m/api/v1/tables [90mat [37mSat Oct 22 2022 21:16:58 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"table_price": 500,[0m
+[97m	"table_qty": "10",[0m
+[97m	"table_category": "VIP",[0m
+[97m	"table_map": [[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"originalStack": "Error: \n    at model.Query._wrappedThunk [as _find] (/home/han/projects/angular/levelfood/back/node_modules/mongoose/lib/helpers/query/wrapThunk.js:27:28)\n    at /home/han/projects/angular/levelfood/back/node_modules/kareem/index.js:426:25\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)"[0m
+[97m}[0m
+[96mResponse: [32m200 [37m21.197 ms 
+
+[96mRequest: [93mGET [97m/api/v1/tables/ [90mat [37mSat Oct 22 2022 21:22:57 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"table_price": 500,[0m
+[97m	"table_qty": "10",[0m
+[97m	"table_category": "VIP",[0m
+[97m	"table_map": [[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"originalStack": "Error: \n    at model.Query._wrappedThunk [as _find] (/home/han/projects/angular/levelfood/back/node_modules/mongoose/lib/helpers/query/wrapThunk.js:27:28)\n    at /home/han/projects/angular/levelfood/back/node_modules/kareem/index.js:426:25\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)"[0m
+[97m}[0m
+[96mResponse: [32m200 [37m18.985 ms 
+
+[96mRequest: [93mGET [97m/api/v1/tables/ [90mat [37mSat Oct 22 2022 21:30:12 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"table_price": 500,[0m
+[97m	"table_qty": "10",[0m
+[97m	"table_category": "VIP",[0m
+[97m	"table_map": [[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"originalStack": "Error: \n    at model.Query._wrappedThunk [as _find] (/home/han/projects/angular/levelfood/back/node_modules/mongoose/lib/helpers/query/wrapThunk.js:27:28)\n    at /home/han/projects/angular/levelfood/back/node_modules/kareem/index.js:426:25\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)"[0m
+[97m}[0m
+[96mResponse: [32m200 [37m19.301 ms 
+
+[96mRequest: [93mGET [97m/api/v1/tables/ [90mat [37mSat Oct 22 2022 21:30:42 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"table_price": 500,[0m
+[97m	"table_qty": "10",[0m
+[97m	"table_category": "VIP",[0m
+[97m	"table_map": [[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"originalStack": "Error: \n    at model.Query._wrappedThunk [as _find] (/home/han/projects/angular/levelfood/back/node_modules/mongoose/lib/helpers/query/wrapThunk.js:27:28)\n    at /home/han/projects/angular/levelfood/back/node_modules/kareem/index.js:426:25\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)"[0m
+[97m}[0m
+[96mResponse: [32m200 [37m18.266 ms 
+
+[96mRequest: [93mGET [97m/api/v1/tables/ [90mat [37mSat Oct 22 2022 21:31:41 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"table_price": 500,[0m
+[97m	"table_qty": "10",[0m
+[97m	"table_category": "VIP",[0m
+[97m	"table_map": [[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"originalStack": "Error: \n    at model.Query._wrappedThunk [as _find] (/home/han/projects/angular/levelfood/back/node_modules/mongoose/lib/helpers/query/wrapThunk.js:27:28)\n    at /home/han/projects/angular/levelfood/back/node_modules/kareem/index.js:426:25\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)"[0m
+[97m}[0m
+[96mResponse: [32m200 [37m35.979 ms 
+
+[96mRequest: [93mGET [97m/api/v1/tables/ [90mat [37mSat Oct 22 2022 21:31:45 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"table_price": 500,[0m
+[97m	"table_qty": "10",[0m
+[97m	"table_category": "VIP",[0m
+[97m	"table_map": [[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"originalStack": "Error: \n    at model.Query._wrappedThunk [as _find] (/home/han/projects/angular/levelfood/back/node_modules/mongoose/lib/helpers/query/wrapThunk.js:27:28)\n    at /home/han/projects/angular/levelfood/back/node_modules/kareem/index.js:426:25\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)"[0m
+[97m}[0m
+[96mResponse: [32m200 [37m1.985 ms 
+
+[96mRequest: [93mGET [97m/api/v1/tables/ [90mat [37mSat Oct 22 2022 21:34:41 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"table_price": 500,[0m
+[97m	"table_qty": "10",[0m
+[97m	"table_category": "VIP",[0m
+[97m	"table_map": [[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"originalStack": "Error: \n    at model.Query._wrappedThunk [as _find] (/home/han/projects/angular/levelfood/back/node_modules/mongoose/lib/helpers/query/wrapThunk.js:27:28)\n    at /home/han/projects/angular/levelfood/back/node_modules/kareem/index.js:426:25\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)"[0m
+[97m}[0m
+[96mResponse: [32m200 [37m25.333 ms 
+
+[96mRequest: [93mPOST [97m/api/v1/tables/ [90mat [37mSat Oct 22 2022 21:41:44 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"table_price": 500,[0m
+[97m	"table_qty": "10",[0m
+[97m	"table_category": "VIP",[0m
+[97m	"table_map": [[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[96mResponse: [32m200 [37m17.354 ms 
+
+[96mRequest: [93mGET [97m/api/v1/user/ [90mat [37mSat Oct 22 2022 22:02:46 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"table_price": 500,[0m
+[97m	"table_qty": "10",[0m
+[97m	"table_category": "VIP",[0m
+[97m	"table_map": [[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[96mResponse: [33m404 [37m7.368 ms 
+
+[96mRequest: [93mGET [97m/api/v1/user/ [90mat [37mSat Oct 22 2022 22:03:14 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"table_price": 500,[0m
+[97m	"table_qty": "10",[0m
+[97m	"table_category": "VIP",[0m
+[97m	"table_map": [[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[96mResponse: [33m404 [37m0.857 ms 
+
+[96mRequest: [93mGET [97m/api/v1/user/ [90mat [37mSat Oct 22 2022 22:04:15 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"table_price": 500,[0m
+[97m	"table_qty": "10",[0m
+[97m	"table_category": "VIP",[0m
+[97m	"table_map": [[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[95mResponse Body:[0m
+[97mhola[0m
+[96mResponse: [32m200 [37m5.702 ms 
+
+[96mRequest: [93mGET [97m/api/v1/user/ [90mat [37mSat Oct 22 2022 22:04:20 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"table_price": 500,[0m
+[97m	"table_qty": "10",[0m
+[97m	"table_category": "VIP",[0m
+[97m	"table_map": [[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[95mResponse Body:[0m
+[97mhola[0m
+[96mResponse: [32m200 [37m1.504 ms 
+
+[96mRequest: [93mGET [97m/api/v1/user/ [90mat [37mSat Oct 22 2022 22:05:37 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"table_price": 500,[0m
+[97m	"table_qty": "10",[0m
+[97m	"table_category": "VIP",[0m
+[97m	"table_map": [[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[95mResponse Body:[0m
+[97mhola[0m
+[96mResponse: [32m200 [37m5.123 ms 
+
+[96mRequest: [93mGET [97m/api/v1/user/ [90mat [37mSat Oct 22 2022 22:05:39 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"table_price": 500,[0m
+[97m	"table_qty": "10",[0m
+[97m	"table_category": "VIP",[0m
+[97m	"table_map": [[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[95mResponse Body:[0m
+[97mhola[0m
+[96mResponse: [32m200 [37m2.117 ms 
+
+[96mRequest: [93mGET [97m/api/v1/user/ [90mat [37mSat Oct 22 2022 22:05:42 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"table_price": 500,[0m
+[97m	"table_qty": "10",[0m
+[97m	"table_category": "VIP",[0m
+[97m	"table_map": [[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[95mResponse Body:[0m
+[97mhola[0m
+[96mResponse: [32m200 [37m0.708 ms 
+
+[96mRequest: [93mGET [97m/api/v1/user/ [90mat [37mSat Oct 22 2022 22:05:44 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"table_price": 500,[0m
+[97m	"table_qty": "10",[0m
+[97m	"table_category": "VIP",[0m
+[97m	"table_map": [[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[95mResponse Body:[0m
+[97mhola[0m
+[96mResponse: [32m200 [37m1.110 ms 
+
+[96mRequest: [93mGET [97m/api/v1/user/ [90mat [37mSat Oct 22 2022 22:05:45 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"table_price": 500,[0m
+[97m	"table_qty": "10",[0m
+[97m	"table_category": "VIP",[0m
+[97m	"table_map": [[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[95mResponse Body:[0m
+[97mhola[0m
+[96mResponse: [32m200 [37m0.601 ms 
+
+[96mRequest: [93mGET [97m/api/v1/user/ [90mat [37mSat Oct 22 2022 22:05:47 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"table_price": 500,[0m
+[97m	"table_qty": "10",[0m
+[97m	"table_category": "VIP",[0m
+[97m	"table_map": [[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[95mResponse Body:[0m
+[97mhola[0m
+[96mResponse: [32m200 [37m0.615 ms 
+
+[96mRequest: [93mGET [97m/api/v1/user/ [90mat [37mSat Oct 22 2022 22:05:50 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"table_price": 500,[0m
+[97m	"table_qty": "10",[0m
+[97m	"table_category": "VIP",[0m
+[97m	"table_map": [[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[95mResponse Body:[0m
+[97mhola[0m
+[96mResponse: [32m200 [37m0.386 ms 
+
+[96mRequest: [93mGET [97m/api/v1/users [90mat [37mSat Oct 22 2022 22:06:42 GMT-0400, [90mIP: [37m::ffff:127.0.0.1[0m, [90mUser Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:106.0) Gecko/20100101 Firefox/106.0[0m
+[96mResponse: [33m404 [37m3.526 ms 
+
+[96mRequest: [93mGET [97m/api/v1/user [90mat [37mSat Oct 22 2022 22:06:47 GMT-0400, [90mIP: [37m::ffff:127.0.0.1[0m, [90mUser Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:106.0) Gecko/20100101 Firefox/106.0[0m
+[95mResponse Body:[0m
+[97mhola[0m
+[96mResponse: [32m200 [37m0.632 ms 
+
+[96mRequest: [93mGET [97m/favicon.ico [90mat [37mSat Oct 22 2022 22:06:47 GMT-0400, [90mIP: [37m::ffff:127.0.0.1[0m, [90mUser Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:106.0) Gecko/20100101 Firefox/106.0[0m
+[96mResponse: [33m404 [37m0.866 ms 
+
+[96mRequest: [93mGET [97m/api/v1/user [90mat [37mSat Oct 22 2022 22:06:49 GMT-0400, [90mIP: [37m::ffff:127.0.0.1[0m, [90mUser Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:106.0) Gecko/20100101 Firefox/106.0[0m
+[95mResponse Body:[0m
+[97mhola[0m
+[96mResponse: [36m304 [37m0.983 ms 
+
+[96mRequest: [93mGET [97m/api/v1/user [90mat [37mSat Oct 22 2022 22:06:49 GMT-0400, [90mIP: [37m::ffff:127.0.0.1[0m, [90mUser Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:106.0) Gecko/20100101 Firefox/106.0[0m
+[95mResponse Body:[0m
+[97mhola[0m
+[96mResponse: [36m304 [37m0.748 ms 
+
+[96mRequest: [93mGET [97m/api/v1/user [90mat [37mSat Oct 22 2022 22:06:50 GMT-0400, [90mIP: [37m::ffff:127.0.0.1[0m, [90mUser Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:106.0) Gecko/20100101 Firefox/106.0[0m
+[95mResponse Body:[0m
+[97mhola[0m
+[96mResponse: [36m304 [37m0.629 ms 
+
+[96mRequest: [93mGET [97m/api/v1/user [90mat [37mSat Oct 22 2022 22:06:50 GMT-0400, [90mIP: [37m::ffff:127.0.0.1[0m, [90mUser Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:106.0) Gecko/20100101 Firefox/106.0[0m
+[95mResponse Body:[0m
+[97mhola[0m
+[96mResponse: [36m304 [37m0.667 ms 
+
+[96mRequest: [93mGET [97m/favicon.ico [90mat [37mSat Oct 22 2022 22:06:50 GMT-0400, [90mIP: [37m::ffff:127.0.0.1[0m, [90mUser Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:106.0) Gecko/20100101 Firefox/106.0[0m
+[96mResponse: [33m404 [37m0.509 ms 
+
+[96mRequest: [93mGET [97m/api/v1/user [90mat [37mSat Oct 22 2022 22:06:50 GMT-0400, [90mIP: [37m::ffff:127.0.0.1[0m, [90mUser Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:106.0) Gecko/20100101 Firefox/106.0[0m
+[95mResponse Body:[0m
+[97mhola[0m
+[96mResponse: [36m304 [37m0.576 ms 
+
+[96mRequest: [93mGET [97m/api/v1/user [90mat [37mSat Oct 22 2022 22:06:51 GMT-0400, [90mIP: [37m::ffff:127.0.0.1[0m, [90mUser Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:106.0) Gecko/20100101 Firefox/106.0[0m
+[95mResponse Body:[0m
+[97mhola[0m
+[96mResponse: [36m304 [37m0.441 ms 
+
+[96mRequest: [93mGET [97m/api/v1/user/ [90mat [37mSat Oct 22 2022 22:12:39 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"table_price": 500,[0m
+[97m	"table_qty": "10",[0m
+[97m	"table_category": "VIP",[0m
+[97m	"table_map": [[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"table_price": 500,[0m
+[97m	"table_qty": "10",[0m
+[97m	"table_category": "VIP",[0m
+[97m	"table_map": [[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[96mResponse: [32m200 [37m6.362 ms 
+
+[96mRequest: [93mGET [97m/api/v1/user/ [90mat [37mSun Oct 23 2022 10:42:44 GMT-0400, [90mIP: [37m::ffff:127.0.0.1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"table_price": 500,[0m
+[97m	"table_qty": "10",[0m
+[97m	"table_category": "VIP",[0m
+[97m	"table_map": [[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"table_price": 500,[0m
+[97m	"table_qty": "10",[0m
+[97m	"table_category": "VIP",[0m
+[97m	"table_map": [[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[96mResponse: [32m200 [37m2.055 ms 
+
+[96mRequest: [93mGET [97m/api/v1/user/ [90mat [37mSun Oct 23 2022 10:50:24 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"table_price": 500,[0m
+[97m	"table_qty": "10",[0m
+[97m	"table_category": "VIP",[0m
+[97m	"table_map": [[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[96mResponse: [32m200 [37m123.468 ms 
+
+[96mRequest: [93mGET [97m/api/v1/user/ [90mat [37mSun Oct 23 2022 10:57:56 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"table_price": 500,[0m
+[97m	"table_qty": "10",[0m
+[97m	"table_category": "VIP",[0m
+[97m	"table_map": [[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[96mResponse: [31m500 [37m29.827 ms 
+
+[96mRequest: [93mGET [97m/api/v1/user/ [90mat [37mSun Oct 23 2022 11:03:21 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"table_price": 500,[0m
+[97m	"table_qty": "10",[0m
+[97m	"table_category": "VIP",[0m
+[97m	"table_map": [[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		},[0m
+[97m		{[0m
+[97m			"table_label": "intento",[0m
+[97m			"layout": "_gggggg_",[0m
+[97m			"chairs": 7,[0m
+[97m			"isReserved": false[0m
+[97m		}[0m
+[97m	][0m
+[97m}[0m
+[96mResponse: [31m500 [37m6.805 ms 
+
+[96mRequest: [93mGET [97m/api/v1/user [90mat [37mSun Oct 23 2022 11:03:36 GMT-0400, [90mIP: [37m::ffff:127.0.0.1[0m, [90mUser Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:106.0) Gecko/20100101 Firefox/106.0[0m
+[96mResponse: [31m500 [37m1.602 ms 
+
+[96mRequest: [93mPOST [97m/api/v1/user [90mat [37mSun Oct 23 2022 12:01:39 GMT-0400, [90mIP: [37m::ffff:127.0.0.1[0m, [90mUser Agent: Thunder Client (https://www.thunderclient.com)[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"name": "Ronald",[0m
+[97m	"lastname": "Escobar",[0m
+[97m	"email": "ronaldaed@gmail.com",[0m
+[97m	"password": "HAn.1208"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": {[0m
+[97m		"errors": [[0m
+[97m			{[0m
+[97m				"value": "Ronald",[0m
+[97m				"msg": "Invalid value",[0m
+[97m				"param": "name",[0m
+[97m				"location": "body"[0m
+[97m			},[0m
+[97m			{[0m
+[97m				"value": "Escobar",[0m
+[97m				"msg": "Invalid value",[0m
+[97m				"param": "lastname",[0m
+[97m				"location": "body"[0m
+[97m			},[0m
+[97m			{[0m
+[97m				"value": "ronaldaed@gmail.com",[0m
+[97m				"msg": "Invalid value",[0m
+[97m				"param": "email",[0m
+[97m				"location": "body"[0m
+[97m			},[0m
+[97m			{[0m
+[97m				"value": "HAn.1208",[0m
+[97m				"msg": "Invalid value",[0m
+[97m				"param": "password",[0m
+[97m				"location": "body"[0m
+[97m			}[0m
+[97m		][0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [33m403 [37m18.707 ms 
+
+[96mRequest: [93mPOST [97m/api/v1/user [90mat [37mSun Oct 23 2022 12:02:01 GMT-0400, [90mIP: [37m::ffff:127.0.0.1[0m, [90mUser Agent: Thunder Client (https://www.thunderclient.com)[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"name": "Ronald",[0m
+[97m	"lastname": "Escobar",[0m
+[97m	"email": "ronaldaed@gmail.com",[0m
+[97m	"password": "HAn.1208"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": {[0m
+[97m		"errors": [[0m
+[97m			{[0m
+[97m				"value": "Ronald",[0m
+[97m				"msg": "Invalid value",[0m
+[97m				"param": "name",[0m
+[97m				"location": "body"[0m
+[97m			},[0m
+[97m			{[0m
+[97m				"value": "Escobar",[0m
+[97m				"msg": "Invalid value",[0m
+[97m				"param": "lastname",[0m
+[97m				"location": "body"[0m
+[97m			},[0m
+[97m			{[0m
+[97m				"value": "ronaldaed@gmail.com",[0m
+[97m				"msg": "Invalid value",[0m
+[97m				"param": "email",[0m
+[97m				"location": "body"[0m
+[97m			},[0m
+[97m			{[0m
+[97m				"value": "HAn.1208",[0m
+[97m				"msg": "Invalid value",[0m
+[97m				"param": "password",[0m
+[97m				"location": "body"[0m
+[97m			}[0m
+[97m		][0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [33m403 [37m8.000 ms 
+
+[96mRequest: [93mPOST [97m/api/v1/user [90mat [37mSun Oct 23 2022 12:02:10 GMT-0400, [90mIP: [37m::ffff:127.0.0.1[0m, [90mUser Agent: Thunder Client (https://www.thunderclient.com)[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"name": "Ronald",[0m
+[97m	"lastname": "Escobar",[0m
+[97m	"email": "ronaldaed@gmail.com",[0m
+[97m	"password": "HAn.1208"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": {[0m
+[97m		"errors": [[0m
+[97m			{[0m
+[97m				"value": "Ronald",[0m
+[97m				"msg": "Invalid value",[0m
+[97m				"param": "name",[0m
+[97m				"location": "body"[0m
+[97m			},[0m
+[97m			{[0m
+[97m				"value": "Escobar",[0m
+[97m				"msg": "Invalid value",[0m
+[97m				"param": "lastname",[0m
+[97m				"location": "body"[0m
+[97m			},[0m
+[97m			{[0m
+[97m				"value": "ronaldaed@gmail.com",[0m
+[97m				"msg": "Invalid value",[0m
+[97m				"param": "email",[0m
+[97m				"location": "body"[0m
+[97m			},[0m
+[97m			{[0m
+[97m				"value": "HAn.1208",[0m
+[97m				"msg": "Invalid value",[0m
+[97m				"param": "password",[0m
+[97m				"location": "body"[0m
+[97m			}[0m
+[97m		][0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [33m403 [37m3.671 ms 
+
+[96mRequest: [93mPOST [97m/api/v1/user [90mat [37mSun Oct 23 2022 12:02:30 GMT-0400, [90mIP: [37m::ffff:127.0.0.1[0m, [90mUser Agent: Thunder Client (https://www.thunderclient.com)[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"name": "Ronald",[0m
+[97m	"lastname": "Escobar",[0m
+[97m	"email": "ronaldaed@gmail.com",[0m
+[97m	"password": "HAn.1208"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": {[0m
+[97m		"errors": [[0m
+[97m			{[0m
+[97m				"value": "Ronald",[0m
+[97m				"msg": "Invalid value",[0m
+[97m				"param": "name",[0m
+[97m				"location": "body"[0m
+[97m			},[0m
+[97m			{[0m
+[97m				"value": "Escobar",[0m
+[97m				"msg": "Invalid value",[0m
+[97m				"param": "lastname",[0m
+[97m				"location": "body"[0m
+[97m			},[0m
+[97m			{[0m
+[97m				"value": "ronaldaed@gmail.com",[0m
+[97m				"msg": "Invalid value",[0m
+[97m				"param": "email",[0m
+[97m				"location": "body"[0m
+[97m			},[0m
+[97m			{[0m
+[97m				"value": "HAn.1208",[0m
+[97m				"msg": "Invalid value",[0m
+[97m				"param": "password",[0m
+[97m				"location": "body"[0m
+[97m			}[0m
+[97m		][0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [33m403 [37m28.142 ms 
+
+[96mRequest: [93mPOST [97m/api/v1/user [90mat [37mSun Oct 23 2022 12:02:31 GMT-0400, [90mIP: [37m::ffff:127.0.0.1[0m, [90mUser Agent: Thunder Client (https://www.thunderclient.com)[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"name": "Ronald",[0m
+[97m	"lastname": "Escobar",[0m
+[97m	"email": "ronaldaed@gmail.com",[0m
+[97m	"password": "HAn.1208"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": {[0m
+[97m		"errors": [[0m
+[97m			{[0m
+[97m				"value": "Ronald",[0m
+[97m				"msg": "Invalid value",[0m
+[97m				"param": "name",[0m
+[97m				"location": "body"[0m
+[97m			},[0m
+[97m			{[0m
+[97m				"value": "Escobar",[0m
+[97m				"msg": "Invalid value",[0m
+[97m				"param": "lastname",[0m
+[97m				"location": "body"[0m
+[97m			},[0m
+[97m			{[0m
+[97m				"value": "ronaldaed@gmail.com",[0m
+[97m				"msg": "Invalid value",[0m
+[97m				"param": "email",[0m
+[97m				"location": "body"[0m
+[97m			},[0m
+[97m			{[0m
+[97m				"value": "HAn.1208",[0m
+[97m				"msg": "Invalid value",[0m
+[97m				"param": "password",[0m
+[97m				"location": "body"[0m
+[97m			}[0m
+[97m		][0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [33m403 [37m6.786 ms 
+
+[96mRequest: [93mPOST [97m/api/v1/user [90mat [37mSun Oct 23 2022 12:04:39 GMT-0400, [90mIP: [37m::ffff:127.0.0.1[0m, [90mUser Agent: Thunder Client (https://www.thunderclient.com)[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"name": "Ronald",[0m
+[97m	"lastname": "Escobar",[0m
+[97m	"email": "ronaldaed@gmail.com",[0m
+[97m	"password": "HAn.1208"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": {[0m
+[97m		"errors": [[0m
+[97m			{[0m
+[97m				"value": "Ronald",[0m
+[97m				"msg": "Invalid value",[0m
+[97m				"param": "name",[0m
+[97m				"location": "body"[0m
+[97m			},[0m
+[97m			{[0m
+[97m				"value": "Escobar",[0m
+[97m				"msg": "Invalid value",[0m
+[97m				"param": "lastname",[0m
+[97m				"location": "body"[0m
+[97m			},[0m
+[97m			{[0m
+[97m				"value": "ronaldaed@gmail.com",[0m
+[97m				"msg": "Invalid value",[0m
+[97m				"param": "email",[0m
+[97m				"location": "body"[0m
+[97m			},[0m
+[97m			{[0m
+[97m				"value": "HAn.1208",[0m
+[97m				"msg": "Invalid value",[0m
+[97m				"param": "password",[0m
+[97m				"location": "body"[0m
+[97m			}[0m
+[97m		][0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [33m403 [37m19.491 ms 
+
+[96mRequest: [93mPOST [97m/api/v1/user [90mat [37mSun Oct 23 2022 12:04:40 GMT-0400, [90mIP: [37m::ffff:127.0.0.1[0m, [90mUser Agent: Thunder Client (https://www.thunderclient.com)[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"name": "Ronald",[0m
+[97m	"lastname": "Escobar",[0m
+[97m	"email": "ronaldaed@gmail.com",[0m
+[97m	"password": "HAn.1208"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": {[0m
+[97m		"errors": [[0m
+[97m			{[0m
+[97m				"value": "Ronald",[0m
+[97m				"msg": "Invalid value",[0m
+[97m				"param": "name",[0m
+[97m				"location": "body"[0m
+[97m			},[0m
+[97m			{[0m
+[97m				"value": "Escobar",[0m
+[97m				"msg": "Invalid value",[0m
+[97m				"param": "lastname",[0m
+[97m				"location": "body"[0m
+[97m			},[0m
+[97m			{[0m
+[97m				"value": "ronaldaed@gmail.com",[0m
+[97m				"msg": "Invalid value",[0m
+[97m				"param": "email",[0m
+[97m				"location": "body"[0m
+[97m			},[0m
+[97m			{[0m
+[97m				"value": "HAn.1208",[0m
+[97m				"msg": "Invalid value",[0m
+[97m				"param": "password",[0m
+[97m				"location": "body"[0m
+[97m			}[0m
+[97m		][0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [33m403 [37m5.370 ms 
+
+[96mRequest: [93mPOST [97m/api/v1/user [90mat [37mSun Oct 23 2022 12:04:41 GMT-0400, [90mIP: [37m::ffff:127.0.0.1[0m, [90mUser Agent: Thunder Client (https://www.thunderclient.com)[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"name": "Ronald",[0m
+[97m	"lastname": "Escobar",[0m
+[97m	"email": "ronaldaed@gmail.com",[0m
+[97m	"password": "HAn.1208"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": {[0m
+[97m		"errors": [[0m
+[97m			{[0m
+[97m				"value": "Ronald",[0m
+[97m				"msg": "Invalid value",[0m
+[97m				"param": "name",[0m
+[97m				"location": "body"[0m
+[97m			},[0m
+[97m			{[0m
+[97m				"value": "Escobar",[0m
+[97m				"msg": "Invalid value",[0m
+[97m				"param": "lastname",[0m
+[97m				"location": "body"[0m
+[97m			},[0m
+[97m			{[0m
+[97m				"value": "ronaldaed@gmail.com",[0m
+[97m				"msg": "Invalid value",[0m
+[97m				"param": "email",[0m
+[97m				"location": "body"[0m
+[97m			},[0m
+[97m			{[0m
+[97m				"value": "HAn.1208",[0m
+[97m				"msg": "Invalid value",[0m
+[97m				"param": "password",[0m
+[97m				"location": "body"[0m
+[97m			}[0m
+[97m		][0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [33m403 [37m3.017 ms 
+
+[96mRequest: [93mPOST [97m/api/v1/user [90mat [37mSun Oct 23 2022 12:22:58 GMT-0400, [90mIP: [37m::ffff:127.0.0.1[0m, [90mUser Agent: Thunder Client (https://www.thunderclient.com)[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"name": "Ronald",[0m
+[97m	"lastname": "Escobar",[0m
+[97m	"email": "ronaldaed@gmail.com",[0m
+[97m	"password": "HAn.1208"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": {[0m
+[97m		"errors": [[0m
+[97m			{[0m
+[97m				"msg": "Invalid value",[0m
+[97m				"param": "age",[0m
+[97m				"location": "body"[0m
+[97m			},[0m
+[97m			{[0m
+[97m				"msg": "Invalid value",[0m
+[97m				"param": "age",[0m
+[97m				"location": "body"[0m
+[97m			},[0m
+[97m			{[0m
+[97m				"msg": "Invalid value",[0m
+[97m				"param": "age",[0m
+[97m				"location": "body"[0m
+[97m			}[0m
+[97m		][0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [33m403 [37m27.713 ms 
+
+[96mRequest: [93mPOST [97m/api/v1/user [90mat [37mSun Oct 23 2022 12:23:50 GMT-0400, [90mIP: [37m::ffff:127.0.0.1[0m, [90mUser Agent: Thunder Client (https://www.thunderclient.com)[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"name": "Ronald",[0m
+[97m	"lastname": "Escobar",[0m
+[97m	"email": "ronaldaed@gmail.com",[0m
+[97m	"password": "HAn.1208"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"index": 0,[0m
+[97m	"code": 11000,[0m
+[97m	"keyPattern": {[0m
+[97m		"email": 1[0m
+[97m	},[0m
+[97m	"keyValue": {[0m
+[97m		"email": null[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m195.177 ms 
+
+[96mRequest: [93mGET [97m/api/v1/user [90mat [37mSun Oct 23 2022 12:31:31 GMT-0400, [90mIP: [37m::ffff:127.0.0.1[0m, [90mUser Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:106.0) Gecko/20100101 Firefox/106.0[0m
+[96mResponse: [0m- [37m- ms 
+
+[96mRequest: [93mGET [97m/api/v1/user [90mat [37mSun Oct 23 2022 12:33:00 GMT-0400, [90mIP: [37m::ffff:127.0.0.1[0m, [90mUser Agent: Thunder Client (https://www.thunderclient.com)[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"name": "Ronald",[0m
+[97m	"lastname": "Escobar",[0m
+[97m	"email": "ronaldaed@gmail.com",[0m
+[97m	"password": "HAn.1208"[0m
+[97m}[0m
+[96mResponse: [0m- [37m- ms 
+
+[96mRequest: [93mGET [97m/api/v1/user [90mat [37mSun Oct 23 2022 12:34:02 GMT-0400, [90mIP: [37m::ffff:127.0.0.1[0m, [90mUser Agent: Thunder Client (https://www.thunderclient.com)[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"name": "Ronald",[0m
+[97m	"lastname": "Escobar",[0m
+[97m	"email": "ronaldaed@gmail.com",[0m
+[97m	"password": "HAn.1208"[0m
+[97m}[0m
+[96mResponse: [0m- [37m- ms 
+
+[96mRequest: [93mPOST [97m/api/v1/user [90mat [37mSun Oct 23 2022 12:34:03 GMT-0400, [90mIP: [37m::ffff:127.0.0.1[0m, [90mUser Agent: Thunder Client (https://www.thunderclient.com)[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"name": "Ronald",[0m
+[97m	"lastname": "Escobar",[0m
+[97m	"email": "ronaldaed@gmail.com",[0m
+[97m	"password": "HAn.1208"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"errors": {[0m
+[97m		"password": {[0m
+[97m			"stringValue": "\"Promise { <pending> }\"",[0m
+[97m			"valueType": "Promise",[0m
+[97m			"kind": "string",[0m
+[97m			"value": {},[0m
+[97m			"path": "password",[0m
+[97m			"reason": null,[0m
+[97m			"name": "CastError",[0m
+[97m			"message": "Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\""[0m
+[97m		}[0m
+[97m	},[0m
+[97m	"_message": "user validation failed",[0m
+[97m	"name": "ValidationError",[0m
+[97m	"message": "user validation failed: password: Cast to string failed for value \"Promise { <pending> }\" (type Promise) at path \"password\""[0m
+[97m}[0m
+[96mResponse: [32m200 [37m37.323 ms 
+
+[96mRequest: [93mPOST [97m/api/v1/user [90mat [37mSun Oct 23 2022 12:34:33 GMT-0400, [90mIP: [37m::ffff:127.0.0.1[0m, [90mUser Agent: Thunder Client (https://www.thunderclient.com)[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"name": "Ronald",[0m
+[97m	"lastname": "Escobar",[0m
+[97m	"email": "ronaldaed@gmail.com",[0m
+[97m	"password": "HAn.1208"[0m
+[97m}[0m
+[96mResponse: [0m- [37m- ms 
+
+[96mRequest: [93mPOST [97m/api/v1/user [90mat [37mSun Oct 23 2022 12:34:40 GMT-0400, [90mIP: [37m::ffff:127.0.0.1[0m, [90mUser Agent: Thunder Client (https://www.thunderclient.com)[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"name": "Ronald",[0m
+[97m	"lastname": "Escobar",[0m
+[97m	"email": "ronaldaed@gmail.com",[0m
+[97m	"password": "HAn.1208"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"index": 0,[0m
+[97m	"code": 11000,[0m
+[97m	"keyPattern": {[0m
+[97m		"email": 1[0m
+[97m	},[0m
+[97m	"keyValue": {[0m
+[97m		"email": "ronaldaed@gmail.com"[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m4282.610 ms 
+
+[96mRequest: [93mPOST [97m/api/v1/user [90mat [37mSun Oct 23 2022 12:44:14 GMT-0400, [90mIP: [37m::ffff:127.0.0.1[0m, [90mUser Agent: Thunder Client (https://www.thunderclient.com)[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"name": "Ronald",[0m
+[97m	"lastname": "Escobar",[0m
+[97m	"email": "ronaldaed@gmail.com",[0m
+[97m	"password": "HAn.1208"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"index": 0,[0m
+[97m	"code": 11000,[0m
+[97m	"keyPattern": {[0m
+[97m		"email": 1[0m
+[97m	},[0m
+[97m	"keyValue": {[0m
+[97m		"email": "ronaldaed@gmail.com"[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m382.032 ms 
+
+[96mRequest: [93mPOST [97m/api/v1/user [90mat [37mSun Oct 23 2022 12:44:20 GMT-0400, [90mIP: [37m::ffff:127.0.0.1[0m, [90mUser Agent: Thunder Client (https://www.thunderclient.com)[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"name": "Ronald",[0m
+[97m	"lastname": "Escobar",[0m
+[97m	"email": "ronaldaed@gmail.com",[0m
+[97m	"password": "HAn.1208"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"index": 0,[0m
+[97m	"code": 11000,[0m
+[97m	"keyPattern": {[0m
+[97m		"email": 1[0m
+[97m	},[0m
+[97m	"keyValue": {[0m
+[97m		"email": "ronaldaed@gmail.com"[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m379.261 ms 
+
+[96mRequest: [93mPOST [97m/api/v1/user [90mat [37mSun Oct 23 2022 13:05:27 GMT-0400, [90mIP: [37m::ffff:127.0.0.1[0m, [90mUser Agent: Thunder Client (https://www.thunderclient.com)[0m
+[95mRequest Body:[0m
+[97m{[0m
+[97m	"name": "Ronald",[0m
+[97m	"lastname": "Escobar",[0m
+[97m	"email": "usomedobyelse@gmail.com",[0m
+[97m	"password": "HAn.1208"[0m
+[97m}[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"name": "Ronald",[0m
+[97m	"lastname": "Escobar",[0m
+[97m	"email": "usomedobyelse@gmail.com",[0m
+[97m	"password": "$2a$10$X1/qn.lafHCqg5g/gKe8L.pvfHFSeymXZskdC7TtzMWBIp0OAVJT.",[0m
+[97m	"role": [[0m
+[97m		"user"[0m
+[97m	],[0m
+[97m	"_id": "63557457d10ac3b3b66bb48e",[0m
+[97m	"createdAt": "2022-10-23T17:05:27.494Z",[0m
+[97m	"updatedAt": "2022-10-23T17:05:27.494Z"[0m
+[97m}[0m
+[96mResponse: [32m200 [37m402.039 ms 
+
+[96mRequest: [93mGET [97m/api/v1/user [90mat [37mSun Oct 23 2022 15:31:59 GMT-0400, [90mIP: [37m::ffff:127.0.0.1[0m, [90mUser Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:106.0) Gecko/20100101 Firefox/106.0[0m
+[95mResponse Body:[0m
+[97m[[0m
+[97m	{[0m
+[97m		"_id": "6355675f8689e75e3caa4e55",[0m
+[97m		"role": [[0m
+[97m			"user"[0m
+[97m		],[0m
+[97m		"createdAt": "2022-10-23T16:10:07.170Z",[0m
+[97m		"updatedAt": "2022-10-23T16:10:07.170Z"[0m
+[97m	},[0m
+[97m	{[0m
+[97m		"_id": "63556d19d10ac3b3b66bb483",[0m
+[97m		"name": "Ronald",[0m
+[97m		"lastname": "Escobar",[0m
+[97m		"email": "ronaldaed@gmail.com",[0m
+[97m		"password": "$2a$10$hqL32UcoXxtk2zkV9QImd.R5SrsQoi14/dIsaDtFKacrKvpPHrLui",[0m
+[97m		"role": [[0m
+[97m			"user"[0m
+[97m		],[0m
+[97m		"createdAt": "2022-10-23T16:34:33.623Z",[0m
+[97m		"updatedAt": "2022-10-23T16:34:33.623Z"[0m
+[97m	},[0m
+[97m	{[0m
+[97m		"_id": "63557457d10ac3b3b66bb48e",[0m
+[97m		"name": "Ronald",[0m
+[97m		"lastname": "Escobar",[0m
+[97m		"email": "usomedobyelse@gmail.com",[0m
+[97m		"password": "$2a$10$X1/qn.lafHCqg5g/gKe8L.pvfHFSeymXZskdC7TtzMWBIp0OAVJT.",[0m
+[97m		"role": [[0m
+[97m			"user"[0m
+[97m		],[0m
+[97m		"createdAt": "2022-10-23T17:05:27.494Z",[0m
+[97m		"updatedAt": "2022-10-23T17:05:27.494Z"[0m
+[97m	}[0m
+[97m][0m
+[96mResponse: [32m200 [37m7725.999 ms 
