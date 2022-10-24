@@ -1,14 +1,4 @@
-<<<<<<< HEAD
-import { compare, hash } from "bcryptjs"
-
-const comparation =async(textPlain:string, textHash:string):Promise<boolean>=>{
-    return compare(textPlain,textHash)
-}
-const encrypt = async(textPlain:string):Promise<string>=>{
-    const textHash = await hash(textPlain,10)
-=======
 import { compare, hash } from 'bcryptjs'
-
 /**
  * 
  * @param textPlain 
@@ -18,7 +8,6 @@ import { compare, hash } from 'bcryptjs'
 const comparation= async(textPlain:string,textHash:string):Promise<boolean>=>{
 return compare(textPlain,textHash)
 }
-
 /**
  * 
  * @param textPlain 
@@ -26,7 +15,6 @@ return compare(textPlain,textHash)
  */
 const encrypt= async(textPlain:string):Promise<string>=>{
     const textHash= await hash(textPlain,10);
->>>>>>> 8cba15b (fixed json)
     return textHash
 }
 export {encrypt,comparation}

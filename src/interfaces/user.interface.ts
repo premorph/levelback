@@ -1,16 +1,15 @@
 import { Request, Response } from "express";
+import {Types} from "mongoose";
 
 export interface IUser{
 name:string;
 lastname:string;
 email:string;
 password:string;
-avatar:string;
+avatar:Types.ObjectId;
 role:any
-<<<<<<< HEAD
 status:any
-=======
->>>>>>> 8cba15b (fixed json)
+
 }
 export interface UserContract {
     CreateUser(req:Request,res:Response):void
@@ -18,8 +17,6 @@ export interface UserContract {
     GetUser(req:Request,res:Response):void;
     UpdateUser(req:Request,res:Response):void;
     DeleteUser(req:Request,res:Response):void
-<<<<<<< HEAD
+
 }
-=======
-}
->>>>>>> 8cba15b (fixed json)
+

@@ -1,9 +1,7 @@
-<<<<<<< HEAD
+
 import { model, Schema } from 'mongoose'
-=======
-import { model, Schema, Types } from 'mongoose'
 import { IEvent } from '../../interfaces'
->>>>>>> 0c243c1 (review controllers)
+
 
 const eventSchema = new Schema<IEvent>(
   {
@@ -27,10 +25,6 @@ const eventSchema = new Schema<IEvent>(
     ],
     author: {
       types: Schema.Types.ObjectId,
-<<<<<<< HEAD
-    
-=======
->>>>>>> 0c243c1 (review controllers)
     },
   },
   {

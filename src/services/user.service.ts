@@ -3,11 +3,7 @@ import { matchedData } from 'express-validator'
 import { CallbackError } from 'mongoose'
 import { UserContract } from '../interfaces'
 import { UserModel } from '../models/nosql/user.model'
-<<<<<<< HEAD
 import { encrypt } from '../utils/'
-=======
-import { encrypt } from '../utils/bcrypt.utils'
->>>>>>> 8cba15b (fixed json)
 
 class UserService implements UserContract {
     async CreateUser(req: Request, res: Response): Promise<void> {
@@ -23,7 +19,7 @@ class UserService implements UserContract {
         })
     }
     async GetUsers(req: Request, res: Response): Promise<void> {
-        const users: any = await UserModel.find()
+        const users: any = await UserModel.FindAllData()
         if (users.lenght <= 0) {
             res.send('error')
         }
@@ -31,12 +27,8 @@ class UserService implements UserContract {
     }
     async GetUser(req: Request, res: Response): Promise<void> {
         const { _id } = req.params
-        await UserModel.findOne({ _id }, (err: CallbackError, result: any) => {
-            if (err) {
-                res.send(err)
-            }
-            res.send(result)
-        })
+       const user= await UserModel.findOne({id:_id})
+        res.send(user)
     }
     async UpdateUser(req: Request, res: Response): Promise<void> {
         const body = matchedData(req, { locations: ['body'] })

@@ -8,16 +8,16 @@ import fs from 'fs'
 const MEDIA_PATH ="https://localhost:3001/";
 
 class StorageService implements IStoragecontract {
-    CreateStorage(req: Request, res: Response): void {
+   async CreateStorage(req: Request, res: Response): Promise<void> {
         const file = req.file
-        const body = matchedData(req)
+        const body = matchedData(req, {locations:['query']})
         const data = {
             filename: file?.filename,
             fileOwner: body.fileOwner,
             typeF: body.typeF,
         }
-        StorageModel.create(
-            { data },
+      await  StorageModel.create(
+             data ,
             (err: CallbackError, result: IStorage) => {
                 if (err)
                     return httpResponses(
@@ -28,7 +28,6 @@ class StorageService implements IStoragecontract {
                     )
                 return res.status(200).json({ ok: true, result })
             }
-
         )
     }
     GetStorages(req: Request, res: Response): void {

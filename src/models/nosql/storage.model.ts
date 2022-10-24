@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 import {  Schema, model } from 'mongoose'
 import { IStorage } from '../../interfaces/storage.interface'
@@ -21,10 +20,5 @@ export const StorageModel = model<IStorage>(
     'storage',
     storageSchema
 )
-=======
-// import { model, Schema } from "mongoose";
 
-// const storageSchema= new Schema<IStorage>({})
 
-// export const StorageModel = model<IStorage>('storage',storageSchema)
->>>>>>> 0c243c1 (review controllers)
