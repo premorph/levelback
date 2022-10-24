@@ -12,7 +12,7 @@ const port = PORT
 app.use('/api/v1/', router)
 // app.use(express.json())
 app.use(bodyParser.json())
-app.use(express.urlencoded({extended:true}))
+app.use(bodyParser.urlencoded({extended:false}))
 //app.use(express.bodyParser())
 ENGINE === 'nosql' ? new DB().initialize() : new SqlDB().initialize()
 
