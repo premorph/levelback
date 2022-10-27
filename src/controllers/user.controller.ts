@@ -7,4 +7,5 @@ const router:Router=Router()
 router.get("/",new UserService().GetUsers)
 router.get("/:_id",new UserService().GetUser)
 router.post('/', ValidatorCreateUser,new UserService().CreateUser  )
+router.post('/', ValidatorCreateUser,new UserService().CreateUser  )
 export {router}

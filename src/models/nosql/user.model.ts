@@ -13,7 +13,10 @@ const userSchema = new Schema<IUser>({
     role:{ type:['user','admin','restaurant'],default:'user'},
     status:{ type:['active','inactive','reported'],default:'active'},
     avatar:{ type:Schema.Types.ObjectId}
+},   {timestamps:true,
+    versionKey:false
 })
+
 userSchema.static('FindAllData',function(){
     const joinData = this.aggregate([
        {

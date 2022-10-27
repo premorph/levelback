@@ -1,9 +1,9 @@
 import { Request, Response } from 'express'
 import { matchedData } from 'express-validator'
 import { CallbackError } from 'mongoose'
-import { UserContract } from '../interfaces'
+import {IStorage,  UserContract} from '../interfaces'
 import { UserModel } from '../models/nosql/user.model'
-import { encrypt } from '../utils/'
+import {encrypt, httpResponses} from '../utils/'
 
 class UserService implements UserContract {
     async CreateUser(req: Request, res: Response): Promise<void> {
@@ -16,6 +16,19 @@ class UserService implements UserContract {
                 return res.send(err)
             }
             res.send(result)
+        })
+    }
+    async ChargeProfile(data:IStorage,res:Response): Promise<void>{
+    const user ={
+        _id:data.fileOwner,
+        avatar:data?._id
+    }
+        await UserModel.updateOne(user._id,{avatar:user.avatar},(err:any,result:any)=>{
+            if(err){
+                return httpResponses(res,400,err.message.toString(),false)
+            }
+            return httpResponses(res,200,result,true)
+
         })
     }
     async GetUsers(req: Request, res: Response): Promise<void> {

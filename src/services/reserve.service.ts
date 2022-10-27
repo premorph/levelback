@@ -4,6 +4,7 @@ import { CallbackError } from 'mongoose';
 import { IReserveContract, IReserve } from '../interfaces/reserve.interface';
 import { ReserveModel } from '../models/nosql/reserve.model';
 import { httpResponses } from '../utils/http.utils';
+import {IStorage} from "../interfaces";
 class ReserveService implements IReserveContract{
     createReserve(req: Request, res: Response): void {
         const body =matchedData(req.body)
@@ -17,6 +18,19 @@ class ReserveService implements IReserveContract{
                 result
             }) 
         });
+    }
+    async chargeReservePayMedia(data:IStorage,res:Response):Promise<void>{
+        const value:IReserve = {
+        _id:data.fileOwner,
+            imagePay:data._id
+        }
+        await ReserveModel.updateOne(value._id,{imagePay:value.imagePay},(err:any,result:any)=>{
+            if(err){
+                return httpResponses(res,400,err.message.toString(),false)
+            }
+            return httpResponses(res,200,result,true)
+
+        })
     }
     GetReserves(_req: Request, res: Response):void{
         try {
@@ -85,4 +99,4 @@ class ReserveService implements IReserveContract{
     }
     
 }
-export default ReserveService 
+export {ReserveService}

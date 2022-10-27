@@ -1,28 +1,11 @@
 
 import { model, Schema } from 'mongoose'
 import { IEvent } from '../../interfaces'
-
-
 const eventSchema = new Schema<IEvent>(
   {
     name: { type: String, require: true },
-    image: { type: String, require: true },
+    mediaID: { type: Schema.Types.ObjectId, require: true },
     dateEvent: { type: Date, require: true },
-    tables: [
-      {
-        table_price: { type: Number, require: true },
-        table_qty: { type: Number, require: true },
-        table_category: { type: String, require: true },
-        table_map: [
-          {
-            table_label: { type: String, require: true },
-            layout: { type: String, require: true },
-            chairs: { type: Number, require: true },
-              isReserve: { type: Schema.Types.ObjectId },
-          },
-        ],
-      },
-    ],
     author: {
       types: Schema.Types.ObjectId,
     },

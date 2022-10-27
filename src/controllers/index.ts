@@ -18,7 +18,7 @@ function removeExtension(file: string): string {
  */
 function loadRoutes(filename: string): void {
   const name = removeExtension(filename)
-  if (name !== 'index') {
+  if (name !== 'index' && name !=="helper") {
     import(`./${filename}`).then((routerModule) =>
       router.use(`/${name}`, routerModule.router)
     )

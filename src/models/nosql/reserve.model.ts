@@ -7,7 +7,7 @@ interface reserveModelExt extends Model<IReserve> {
 const reserveSchema = new Schema<IReserve>(
     {
         author: { type: Schema.Types.ObjectId, require: true, ref: 'author' },
-        table: { type: String, require: true },
+        table: { type: String, require: true }, //TODO 2 4
         imagePay: { type: String, require: true },
         isValid: { type: Boolean },
         datePay: { type: Date, require: true },

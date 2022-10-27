@@ -4,6 +4,7 @@ export interface IStorage{
     filename:string;
     fileOwner:Types.ObjectId;
     typeF:string;
+    _id?:Types.ObjectId
 }
 export interface IStoragecontract{
     CreateStorage(req:Request,res:Response):void;
