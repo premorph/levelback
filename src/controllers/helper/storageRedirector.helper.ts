@@ -3,6 +3,7 @@ import {EventService, ReserveService, UserService} from "../../services";
 
 export async function  storageRedirector(res:Response,data:any):Promise<void>{
     const typeF= data.typeF
+    console.log(data)
     let result
     if(typeF==='user'){
       result =   await new UserService().ChargeProfile(data,res)
@@ -11,7 +12,7 @@ export async function  storageRedirector(res:Response,data:any):Promise<void>{
         result =   await new ReserveService().chargeReservePayMedia(data,res)
     }
     if(typeF==='event'){
-        result =   await new EventService().ChargeEventPicture(data,res)
+        result =  await new EventService().ChargeEventPicture(data,res)
     }
     return result
 }

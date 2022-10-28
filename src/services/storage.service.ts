@@ -25,7 +25,7 @@ class StorageService implements IStoragecontract {
                         ' STORAGE_RECORD_FAILED ',
                         false
                     )
-             const redirector = await storageRedirector(res,data)
+            const redirector = await storageRedirector(res,data)
 
               return httpResponses(res,200,redirector,true)
             }

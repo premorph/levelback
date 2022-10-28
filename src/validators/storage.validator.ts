@@ -4,7 +4,7 @@ import {validateResult} from "../utils";
 
 const validatorCreateStorage=[
     query('typeF').exists().notEmpty(),
-    query('fileowner').exists().notEmpty(),
+    query('fileOwner').exists().notEmpty(),
     (req:Request,res:Response,next:NextFunction)=>{
     return validateResult(req,res,next)
     }

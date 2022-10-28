@@ -21,10 +21,10 @@ userSchema.static('FindAllData',function(){
     const joinData = this.aggregate([
        {
             $lookup:{
-                from:'storages',
-                localField:'avatar',
-                foreignField:'fileowner',
-                as:'avatar'
+                from: 'storages',
+                localField: 'avatar',
+                foreignField: '_id',
+                as: 'media'
             }
         }
     ])
@@ -38,8 +38,8 @@ userSchema.static('FindData',function(_id){
         {
            $lookup:{
                from:'storages',
-               localField:'avatar',
-               foreignField:'fileowner',
+               localField:'fileOwner',
+               foreignField:'avatar',
                as:'avatar'
            }
         }

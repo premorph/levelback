@@ -9,6 +9,7 @@ password:string;
 avatar:Types.ObjectId;
 role:any
 status:any
+    _id?:Types.ObjectId
 
 }
 export interface UserContract {

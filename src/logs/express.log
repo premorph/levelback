@@ -2039,3 +2039,528 @@
 [97m				"fi[0m
 [97m...[0m
 [96mResponse: [32m200 [37m87.578 ms 
+
+[96mRequest: [93mGET [97m/api/v1/user/_id=6355675f8689e75e3caa4e55 [90mat [37mFri Oct 28 2022 11:41:03 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"status": [[0m
+[97m		"active"[0m
+[97m	],[0m
+[97m	"_id": "6355675f8689e75e3caa4e55",[0m
+[97m	"role": [[0m
+[97m		"user"[0m
+[97m	],[0m
+[97m	"createdAt": "2022-10-23T16:10:07.170Z",[0m
+[97m	"updatedAt": "2022-10-23T16:10:07.170Z"[0m
+[97m}[0m
+[96mResponse: [32m200 [37m213.549 ms 
+
+[96mRequest: [93mGET [97m/api/v1/user/ [90mat [37mFri Oct 28 2022 11:41:19 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mResponse Body:[0m
+[97m[[0m
+[97m	{[0m
+[97m		"_id": "6355675f8689e75e3caa4e55",[0m
+[97m		"role": [[0m
+[97m			"user"[0m
+[97m		],[0m
+[97m		"createdAt": "2022-10-23T16:10:07.170Z",[0m
+[97m		"updatedAt": "2022-10-23T16:10:07.170Z",[0m
+[97m		"avatar": [[0m
+[97m			{[0m
+[97m				"_id": "6356c236501aa76a68544d01",[0m
+[97m				"filename": "file-1666630198013.png",[0m
+[97m				"fileOwner": "6355675f8689e75e3caa4e55",[0m
+[97m				"typeF": "user",[0m
+[97m				"createdAt": "2022-10-24T16:49:58.320Z",[0m
+[97m				"updatedAt": "2022-10-24T16:49:58.320Z"[0m
+[97m			},[0m
+[97m			{[0m
+[97m				"_id": "6356c59322f74bf1ba210dba",[0m
+[97m				"filename": "file-1666631059890.png",[0m
+[97m				"typeF": "user",[0m
+[97m				"createdAt": "2022-10-24T17:04:19.905Z",[0m
+[97m				"updatedAt": "2022-10-24T17:04:19.905Z"[0m
+[97m			}[0m
+[97m		][0m
+[97m	},[0m
+[97m	{[0m
+[97m		"_id": "63556d19d10ac3b3b66bb483",[0m
+[97m		"name": "Ronald",[0m
+[97m		"lastname": "Escobar",[0m
+[97m		"email": "ronaldaed@gmail.com",[0m
+[97m		"password": "$2a$10$hqL32UcoXxtk2zkV9QImd.R5SrsQoi14/dIsaDtFKacrKvpPHrLui",[0m
+[97m		"role": [[0m
+[97m			"user"[0m
+[97m		],[0m
+[97m		"createdAt": "2022-10-23T16:34:33.623Z",[0m
+[97m		"updatedAt": "2022-10-23T16:34:33.623Z",[0m
+[97m		"avatar": [[0m
+[97m			{[0m
+[97m				"_id": "6356c236501aa76a68544d01",[0m
+[97m				"fi[0m
+[97m...[0m
+[96mResponse: [32m200 [37m308.303 ms 
+
+[96mRequest: [93mGET [97m/api/v1/user/63556d19d10ac3b3b66bb483 [90mat [37mFri Oct 28 2022 11:41:37 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"status": [[0m
+[97m		"active"[0m
+[97m	],[0m
+[97m	"_id": "6355675f8689e75e3caa4e55",[0m
+[97m	"role": [[0m
+[97m		"user"[0m
+[97m	],[0m
+[97m	"createdAt": "2022-10-23T16:10:07.170Z",[0m
+[97m	"updatedAt": "2022-10-23T16:10:07.170Z"[0m
+[97m}[0m
+[96mResponse: [32m200 [37m324.232 ms 
+
+[96mRequest: [93mGET [97m/api/v1/user/ [90mat [37mFri Oct 28 2022 11:41:48 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mResponse Body:[0m
+[97m[[0m
+[97m	{[0m
+[97m		"_id": "6355675f8689e75e3caa4e55",[0m
+[97m		"role": [[0m
+[97m			"user"[0m
+[97m		],[0m
+[97m		"createdAt": "2022-10-23T16:10:07.170Z",[0m
+[97m		"updatedAt": "2022-10-23T16:10:07.170Z",[0m
+[97m		"avatar": [[0m
+[97m			{[0m
+[97m				"_id": "6356c236501aa76a68544d01",[0m
+[97m				"filename": "file-1666630198013.png",[0m
+[97m				"fileOwner": "6355675f8689e75e3caa4e55",[0m
+[97m				"typeF": "user",[0m
+[97m				"createdAt": "2022-10-24T16:49:58.320Z",[0m
+[97m				"updatedAt": "2022-10-24T16:49:58.320Z"[0m
+[97m			},[0m
+[97m			{[0m
+[97m				"_id": "6356c59322f74bf1ba210dba",[0m
+[97m				"filename": "file-1666631059890.png",[0m
+[97m				"typeF": "user",[0m
+[97m				"createdAt": "2022-10-24T17:04:19.905Z",[0m
+[97m				"updatedAt": "2022-10-24T17:04:19.905Z"[0m
+[97m			}[0m
+[97m		][0m
+[97m	},[0m
+[97m	{[0m
+[97m		"_id": "63556d19d10ac3b3b66bb483",[0m
+[97m		"name": "Ronald",[0m
+[97m		"lastname": "Escobar",[0m
+[97m		"email": "ronaldaed@gmail.com",[0m
+[97m		"password": "$2a$10$hqL32UcoXxtk2zkV9QImd.R5SrsQoi14/dIsaDtFKacrKvpPHrLui",[0m
+[97m		"role": [[0m
+[97m			"user"[0m
+[97m		],[0m
+[97m		"createdAt": "2022-10-23T16:34:33.623Z",[0m
+[97m		"updatedAt": "2022-10-23T16:34:33.623Z",[0m
+[97m		"avatar": [[0m
+[97m			{[0m
+[97m				"_id": "6356c236501aa76a68544d01",[0m
+[97m				"fi[0m
+[97m...[0m
+[96mResponse: [32m200 [37m291.154 ms 
+
+[96mRequest: [93mGET [97m/api/v1/user/63556d19d10ac3b3b66bb483 [90mat [37mFri Oct 28 2022 11:41:54 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"status": [[0m
+[97m		"active"[0m
+[97m	],[0m
+[97m	"_id": "6355675f8689e75e3caa4e55",[0m
+[97m	"role": [[0m
+[97m		"user"[0m
+[97m	],[0m
+[97m	"createdAt": "2022-10-23T16:10:07.170Z",[0m
+[97m	"updatedAt": "2022-10-23T16:10:07.170Z"[0m
+[97m}[0m
+[96mResponse: [32m200 [37m74.084 ms 
+
+[96mRequest: [93mGET [97m/api/v1/user/ [90mat [37mFri Oct 28 2022 11:43:56 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mResponse Body:[0m
+[97m[[0m
+[97m	{[0m
+[97m		"_id": "6355675f8689e75e3caa4e55",[0m
+[97m		"role": [[0m
+[97m			"user"[0m
+[97m		],[0m
+[97m		"createdAt": "2022-10-23T16:10:07.170Z",[0m
+[97m		"updatedAt": "2022-10-23T16:10:07.170Z",[0m
+[97m		"avatar": [[0m
+[97m			{[0m
+[97m				"_id": "6356c236501aa76a68544d01",[0m
+[97m				"filename": "file-1666630198013.png",[0m
+[97m				"fileOwner": "6355675f8689e75e3caa4e55",[0m
+[97m				"typeF": "user",[0m
+[97m				"createdAt": "2022-10-24T16:49:58.320Z",[0m
+[97m				"updatedAt": "2022-10-24T16:49:58.320Z"[0m
+[97m			},[0m
+[97m			{[0m
+[97m				"_id": "6356c59322f74bf1ba210dba",[0m
+[97m				"filename": "file-1666631059890.png",[0m
+[97m				"typeF": "user",[0m
+[97m				"createdAt": "2022-10-24T17:04:19.905Z",[0m
+[97m				"updatedAt": "2022-10-24T17:04:19.905Z"[0m
+[97m			}[0m
+[97m		][0m
+[97m	},[0m
+[97m	{[0m
+[97m		"_id": "63556d19d10ac3b3b66bb483",[0m
+[97m		"name": "Ronald",[0m
+[97m		"lastname": "Escobar",[0m
+[97m		"email": "ronaldaed@gmail.com",[0m
+[97m		"password": "$2a$10$hqL32UcoXxtk2zkV9QImd.R5SrsQoi14/dIsaDtFKacrKvpPHrLui",[0m
+[97m		"role": [[0m
+[97m			"user"[0m
+[97m		],[0m
+[97m		"createdAt": "2022-10-23T16:34:33.623Z",[0m
+[97m		"updatedAt": "2022-10-23T16:34:33.623Z",[0m
+[97m		"avatar": [[0m
+[97m			{[0m
+[97m				"_id": "6356c236501aa76a68544d01",[0m
+[97m				"fi[0m
+[97m...[0m
+[96mResponse: [32m200 [37m80.063 ms 
+
+[96mRequest: [93mGET [97m/api/v1/user/ [90mat [37mFri Oct 28 2022 11:46:21 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mResponse Body:[0m
+[97m[[0m
+[97m	{[0m
+[97m		"_id": "6355675f8689e75e3caa4e55",[0m
+[97m		"role": [[0m
+[97m			"user"[0m
+[97m		],[0m
+[97m		"createdAt": "2022-10-23T16:10:07.170Z",[0m
+[97m		"updatedAt": "2022-10-23T16:10:07.170Z",[0m
+[97m		"avatar": [[0m
+[97m			{[0m
+[97m				"_id": "6356c59322f74bf1ba210dba",[0m
+[97m				"filename": "file-1666631059890.png",[0m
+[97m				"typeF": "user",[0m
+[97m				"createdAt": "2022-10-24T17:04:19.905Z",[0m
+[97m				"updatedAt": "2022-10-24T17:04:19.905Z"[0m
+[97m			}[0m
+[97m		][0m
+[97m	},[0m
+[97m	{[0m
+[97m		"_id": "63556d19d10ac3b3b66bb483",[0m
+[97m		"name": "Ronald",[0m
+[97m		"lastname": "Escobar",[0m
+[97m		"email": "ronaldaed@gmail.com",[0m
+[97m		"password": "$2a$10$hqL32UcoXxtk2zkV9QImd.R5SrsQoi14/dIsaDtFKacrKvpPHrLui",[0m
+[97m		"role": [[0m
+[97m			"user"[0m
+[97m		],[0m
+[97m		"createdAt": "2022-10-23T16:34:33.623Z",[0m
+[97m		"updatedAt": "2022-10-23T16:34:33.623Z",[0m
+[97m		"avatar": [[0m
+[97m			{[0m
+[97m				"_id": "6356c59322f74bf1ba210dba",[0m
+[97m				"filename": "file-1666631059890.png",[0m
+[97m				"typeF": "user",[0m
+[97m				"createdAt": "2022-10-24T17:04:19.905Z",[0m
+[97m				"updatedAt": "2022-10-24T17:04:19.905Z"[0m
+[97m			}[0m
+[97m		][0m
+[97m	},[0m
+[97m	{[0m
+[97m		"_id": "63557457d10ac3b3b66bb48e",[0m
+[97m		"name": "Ronald",[0m
+[97m		"lastname": "Escobar",[0m
+[97m		"e[0m
+[97m...[0m
+[96mResponse: [32m200 [37m83.142 ms 
+
+[96mRequest: [93mGET [97m/api/v1/user/ [90mat [37mFri Oct 28 2022 11:48:13 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mResponse Body:[0m
+[97m[[0m
+[97m	{[0m
+[97m		"_id": "6355675f8689e75e3caa4e55",[0m
+[97m		"role": [[0m
+[97m			"user"[0m
+[97m		],[0m
+[97m		"createdAt": "2022-10-23T16:10:07.170Z",[0m
+[97m		"updatedAt": "2022-10-23T16:10:07.170Z",[0m
+[97m		"media": [[0m
+[97m			{[0m
+[97m				"_id": "6356c59322f74bf1ba210dba",[0m
+[97m				"filename": "file-1666631059890.png",[0m
+[97m				"typeF": "user",[0m
+[97m				"createdAt": "2022-10-24T17:04:19.905Z",[0m
+[97m				"updatedAt": "2022-10-24T17:04:19.905Z"[0m
+[97m			}[0m
+[97m		][0m
+[97m	},[0m
+[97m	{[0m
+[97m		"_id": "63556d19d10ac3b3b66bb483",[0m
+[97m		"name": "Ronald",[0m
+[97m		"lastname": "Escobar",[0m
+[97m		"email": "ronaldaed@gmail.com",[0m
+[97m		"password": "$2a$10$hqL32UcoXxtk2zkV9QImd.R5SrsQoi14/dIsaDtFKacrKvpPHrLui",[0m
+[97m		"role": [[0m
+[97m			"user"[0m
+[97m		],[0m
+[97m		"createdAt": "2022-10-23T16:34:33.623Z",[0m
+[97m		"updatedAt": "2022-10-23T16:34:33.623Z",[0m
+[97m		"media": [[0m
+[97m			{[0m
+[97m				"_id": "6356c59322f74bf1ba210dba",[0m
+[97m				"filename": "file-1666631059890.png",[0m
+[97m				"typeF": "user",[0m
+[97m				"createdAt": "2022-10-24T17:04:19.905Z",[0m
+[97m				"updatedAt": "2022-10-24T17:04:19.905Z"[0m
+[97m			}[0m
+[97m		][0m
+[97m	},[0m
+[97m	{[0m
+[97m		"_id": "63557457d10ac3b3b66bb48e",[0m
+[97m		"name": "Ronald",[0m
+[97m		"lastname": "Escobar",[0m
+[97m		"ema[0m
+[97m...[0m
+[96mResponse: [32m200 [37m89.356 ms 
+
+[96mRequest: [93mGET [97m/api/v1/user/ [90mat [37mFri Oct 28 2022 12:12:02 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mResponse Body:[0m
+[97m[[0m
+[97m	{[0m
+[97m		"_id": "6355675f8689e75e3caa4e55",[0m
+[97m		"role": [[0m
+[97m			"user"[0m
+[97m		],[0m
+[97m		"createdAt": "2022-10-23T16:10:07.170Z",[0m
+[97m		"updatedAt": "2022-10-23T16:10:07.170Z",[0m
+[97m		"media": [[0m
+[97m			{[0m
+[97m				"_id": "6356c59322f74bf1ba210dba",[0m
+[97m				"filename": "file-1666631059890.png",[0m
+[97m				"typeF": "user",[0m
+[97m				"createdAt": "2022-10-24T17:04:19.905Z",[0m
+[97m				"updatedAt": "2022-10-24T17:04:19.905Z"[0m
+[97m			}[0m
+[97m		][0m
+[97m	},[0m
+[97m	{[0m
+[97m		"_id": "63556d19d10ac3b3b66bb483",[0m
+[97m		"name": "Ronald",[0m
+[97m		"lastname": "Escobar",[0m
+[97m		"email": "ronaldaed@gmail.com",[0m
+[97m		"password": "$2a$10$hqL32UcoXxtk2zkV9QImd.R5SrsQoi14/dIsaDtFKacrKvpPHrLui",[0m
+[97m		"role": [[0m
+[97m			"user"[0m
+[97m		],[0m
+[97m		"createdAt": "2022-10-23T16:34:33.623Z",[0m
+[97m		"updatedAt": "2022-10-23T16:34:33.623Z",[0m
+[97m		"media": [[0m
+[97m			{[0m
+[97m				"_id": "6356c59322f74bf1ba210dba",[0m
+[97m				"filename": "file-1666631059890.png",[0m
+[97m				"typeF": "user",[0m
+[97m				"createdAt": "2022-10-24T17:04:19.905Z",[0m
+[97m				"updatedAt": "2022-10-24T17:04:19.905Z"[0m
+[97m			}[0m
+[97m		][0m
+[97m	},[0m
+[97m	{[0m
+[97m		"_id": "63557457d10ac3b3b66bb48e",[0m
+[97m		"name": "Ronald",[0m
+[97m		"lastname": "Escobar",[0m
+[97m		"ema[0m
+[97m...[0m
+[96mResponse: [32m200 [37m517.534 ms 
+
+[96mRequest: [93mGET [97m/api/v1/user/ [90mat [37mFri Oct 28 2022 12:13:17 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mResponse Body:[0m
+[97m[[0m
+[97m	{[0m
+[97m		"_id": "6355675f8689e75e3caa4e55",[0m
+[97m		"role": [[0m
+[97m			"user"[0m
+[97m		],[0m
+[97m		"createdAt": "2022-10-23T16:10:07.170Z",[0m
+[97m		"updatedAt": "2022-10-23T16:10:07.170Z",[0m
+[97m		"media": [[0m
+[97m			{[0m
+[97m				"_id": "6356c236501aa76a68544d01",[0m
+[97m				"filename": "file-1666630198013.png",[0m
+[97m				"fileOwner": "6355675f8689e75e3caa4e55",[0m
+[97m				"typeF": "user",[0m
+[97m				"createdAt": "2022-10-24T16:49:58.320Z",[0m
+[97m				"updatedAt": "2022-10-24T16:49:58.320Z"[0m
+[97m			},[0m
+[97m			{[0m
+[97m				"_id": "6356c59322f74bf1ba210dba",[0m
+[97m				"filename": "file-1666631059890.png",[0m
+[97m				"typeF": "user",[0m
+[97m				"createdAt": "2022-10-24T17:04:19.905Z",[0m
+[97m				"updatedAt": "2022-10-24T17:04:19.905Z"[0m
+[97m			}[0m
+[97m		][0m
+[97m	},[0m
+[97m	{[0m
+[97m		"_id": "63556d19d10ac3b3b66bb483",[0m
+[97m		"name": "Ronald",[0m
+[97m		"lastname": "Escobar",[0m
+[97m		"email": "ronaldaed@gmail.com",[0m
+[97m		"password": "$2a$10$hqL32UcoXxtk2zkV9QImd.R5SrsQoi14/dIsaDtFKacrKvpPHrLui",[0m
+[97m		"role": [[0m
+[97m			"user"[0m
+[97m		],[0m
+[97m		"createdAt": "2022-10-23T16:34:33.623Z",[0m
+[97m		"updatedAt": "2022-10-23T16:34:33.623Z",[0m
+[97m		"media": [[0m
+[97m			{[0m
+[97m				"_id": "6356c236501aa76a68544d01",[0m
+[97m				"file[0m
+[97m...[0m
+[96mResponse: [32m200 [37m93.939 ms 
+
+[96mRequest: [93mPOST [97m/api/v1/storage/?typeF=user&fileOwner=63557457d10ac3b3b66bb48e [90mat [37mFri Oct 28 2022 13:01:15 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"error": {[0m
+[97m		"errors": [[0m
+[97m			{[0m
+[97m				"msg": "Invalid value",[0m
+[97m				"param": "fileowner",[0m
+[97m				"location": "query"[0m
+[97m			},[0m
+[97m			{[0m
+[97m				"msg": "Invalid value",[0m
+[97m				"param": "fileowner",[0m
+[97m				"location": "query"[0m
+[97m			}[0m
+[97m		][0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [33m403 [37m11.669 ms 
+
+[96mRequest: [93mPOST [97m/api/v1/storage/?typeF=user&fileOwner=63557457d10ac3b3b66bb48e [90mat [37mFri Oct 28 2022 13:02:10 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"ok": false,[0m
+[97m	"data": "Parameter \"filter\" to updateOne() must be an object, got 63557457d10ac3b3b66bb48e"[0m
+[97m}[0m
+[96mResponse: [33m400 [37m325.999 ms 
+
+[96mRequest: [93mPOST [97m/api/v1/storage/?typeF=user&fileOwner=63557457d10ac3b3b66bb48e [90mat [37mFri Oct 28 2022 13:04:36 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"ok": true,[0m
+[97m	"data": {[0m
+[97m		"filename": "file-1666976676065.png",[0m
+[97m		"fileOwner": "63557457d10ac3b3b66bb48e",[0m
+[97m		"typeF": "user",[0m
+[97m		"_id": "635c0ba443e70d300aaaf201",[0m
+[97m		"createdAt": "2022-10-28T17:04:36.110Z",[0m
+[97m		"updatedAt": "2022-10-28T17:04:36.110Z"[0m
+[97m	}[0m
+[97m}[0m
+[96mResponse: [32m200 [37m155.570 ms 
+
+[96mRequest: [93mGET [97m/api/v1/users/ [90mat [37mFri Oct 28 2022 13:04:53 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[96mResponse: [33m404 [37m2.390 ms 
+
+[96mRequest: [93mGET [97m/api/v1/user/ [90mat [37mFri Oct 28 2022 13:04:59 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mResponse Body:[0m
+[97m[[0m
+[97m	{[0m
+[97m		"_id": "6355675f8689e75e3caa4e55",[0m
+[97m		"role": [[0m
+[97m			"user"[0m
+[97m		],[0m
+[97m		"createdAt": "2022-10-23T16:10:07.170Z",[0m
+[97m		"updatedAt": "2022-10-23T16:10:07.170Z",[0m
+[97m		"media": [[0m
+[97m			{[0m
+[97m				"_id": "6356c59322f74bf1ba210dba",[0m
+[97m				"filename": "file-1666631059890.png",[0m
+[97m				"typeF": "user",[0m
+[97m				"createdAt": "2022-10-24T17:04:19.905Z",[0m
+[97m				"updatedAt": "2022-10-24T17:04:19.905Z"[0m
+[97m			}[0m
+[97m		][0m
+[97m	},[0m
+[97m	{[0m
+[97m		"_id": "63556d19d10ac3b3b66bb483",[0m
+[97m		"name": "Ronald",[0m
+[97m		"lastname": "Escobar",[0m
+[97m		"email": "ronaldaed@gmail.com",[0m
+[97m		"password": "$2a$10$hqL32UcoXxtk2zkV9QImd.R5SrsQoi14/dIsaDtFKacrKvpPHrLui",[0m
+[97m		"role": [[0m
+[97m			"user"[0m
+[97m		],[0m
+[97m		"createdAt": "2022-10-23T16:34:33.623Z",[0m
+[97m		"updatedAt": "2022-10-23T16:34:33.623Z",[0m
+[97m		"media": [[0m
+[97m			{[0m
+[97m				"_id": "6356c59322f74bf1ba210dba",[0m
+[97m				"filename": "file-1666631059890.png",[0m
+[97m				"typeF": "user",[0m
+[97m				"createdAt": "2022-10-24T17:04:19.905Z",[0m
+[97m				"updatedAt": "2022-10-24T17:04:19.905Z"[0m
+[97m			}[0m
+[97m		][0m
+[97m	},[0m
+[97m	{[0m
+[97m		"_id": "63557457d10ac3b3b66bb48e",[0m
+[97m		"name": "Ronald",[0m
+[97m		"lastname": "Escobar",[0m
+[97m		"ema[0m
+[97m...[0m
+[96mResponse: [32m200 [37m83.537 ms 
+
+[96mRequest: [93mPOST [97m/api/v1/storages/?typeF=user&fileOwner=63557457d10ac3b3b66bb48e [90mat [37mFri Oct 28 2022 13:53:05 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[96mResponse: [33m404 [37m95.201 ms 
+
+[96mRequest: [93mPOST [97m/api/v1/storages/?typeF=user&fileOwner=63557457d10ac3b3b66bb48e [90mat [37mFri Oct 28 2022 13:53:28 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[96mResponse: [33m404 [37m2.168 ms 
+
+[96mRequest: [93mPOST [97m/api/v1/storages/?typeF=user&fileOwner=63557457d10ac3b3b66bb48e [90mat [37mFri Oct 28 2022 13:56:16 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[96mResponse: [33m404 [37m1.724 ms 
+
+[96mRequest: [93mPOST [97m/api/v1/storage/?typeF=user&fileOwner=63557457d10ac3b3b66bb48e [90mat [37mFri Oct 28 2022 13:56:25 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: PostmanRuntime/7.29.2[0m
+[95mResponse Body:[0m
+[97m{[0m
+[97m	"ok": false,[0m
+[97m	"data": "Parameter \"filter\" to updateOne() must be an object, got 63557457d10ac3b3b66bb48e"[0m
+[97m}[0m
+[96mResponse: [33m400 [37m188.556 ms 
+
+[96mRequest: [93mGET [97m/api/v1/user/ [90mat [37mFri Oct 28 2022 15:34:30 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36[0m
+[95mResponse Body:[0m
+[97m[[0m
+[97m	{[0m
+[97m		"_id": "63556d19d10ac3b3b66bb483",[0m
+[97m		"name": "Ronald",[0m
+[97m		"lastname": "Escobar",[0m
+[97m		"email": "ronaldaed@gmail.com",[0m
+[97m		"password": "$2a$10$hqL32UcoXxtk2zkV9QImd.R5SrsQoi14/dIsaDtFKacrKvpPHrLui",[0m
+[97m		"role": [[0m
+[97m			"user"[0m
+[97m		],[0m
+[97m		"createdAt": "2022-10-23T16:34:33.623Z",[0m
+[97m		"updatedAt": "2022-10-23T16:34:33.623Z",[0m
+[97m		"avatar": "ObjectId(\"63557457d10ac3b3b66bb48e\")",[0m
+[97m		"media": [][0m
+[97m	},[0m
+[97m	{[0m
+[97m		"_id": "63557457d10ac3b3b66bb48e",[0m
+[97m		"name": "Ronald",[0m
+[97m		"lastname": "Escobar",[0m
+[97m		"email": "usomedobyelse@gmail.com",[0m
+[97m		"password": "$2a$10$X1/qn.lafHCqg5g/gKe8L.pvfHFSeymXZskdC7TtzMWBIp0OAVJT.",[0m
+[97m		"role": [[0m
+[97m			"user"[0m
+[97m		],[0m
+[97m		"createdAt": "2022-10-23T17:05:27.494Z",[0m
+[97m		"updatedAt": "2022-10-28T18:12:48.692Z",[0m
+[97m		"avatar": "635c0b11e06739e5ad40c833",[0m
+[97m		"media": [][0m
+[97m	}[0m
+[97m][0m
+[96mResponse: [32m200 [37m82.596 ms 
+
+[96mRequest: [93mGET [97m/favicon.ico [90mat [37mFri Oct 28 2022 15:34:30 GMT-0400, [90mIP: [37m::1[0m, [90mUser Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36[0m
+[96mResponse: [33m404 [37m1.505 ms 

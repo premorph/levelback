@@ -3,7 +3,7 @@ import { matchedData } from 'express-validator'
 import { CallbackError } from 'mongoose'
 import {IStorage,  UserContract} from '../interfaces'
 import { UserModel } from '../models/nosql/user.model'
-import {encrypt, httpResponses} from '../utils/'
+import {encrypt} from '../utils/'
 
 class UserService implements UserContract {
     async CreateUser(req: Request, res: Response): Promise<void> {
@@ -23,11 +23,10 @@ class UserService implements UserContract {
         _id:data.fileOwner,
         avatar:data?._id
     }
-        await UserModel.updateOne(user._id,{avatar:user.avatar},(err:any,result:any)=>{
-            if(err){
-                return httpResponses(res,400,err.message.toString(),false)
-            }
-            return httpResponses(res,200,result,true)
+        await UserModel.findByIdAndUpdate(user._id,{avatar:user.avatar},(err:any,result:any)=>{
+
+            console.log(result)
+            return result
 
         })
     }
@@ -40,7 +39,7 @@ class UserService implements UserContract {
     }
     async GetUser(req: Request, res: Response): Promise<void> {
         const { _id } = req.params
-       const user= await UserModel.findOne({id:_id})
+       const user= await UserModel.findOne({_id})
         res.send(user)
     }
     async UpdateUser(req: Request, res: Response): Promise<void> {
