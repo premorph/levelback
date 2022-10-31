@@ -15,7 +15,7 @@ class ReserveService implements IReserveContract {
             return httpResponses(res, 200, result, true)
         })
     }
-    async chargeReservePayMedia(data: IStorage, res: Response): Promise<void> {
+    async chargeReservePayMedia(data: IStorage): Promise<void> {
         const value: IReserve = {
             _id: data.fileOwner,
             imagePay: data._id,
@@ -25,14 +25,9 @@ class ReserveService implements IReserveContract {
             { imagePay: value.imagePay },
             (err: any, result: any) => {
                 if (err) {
-                    return httpResponses(
-                        res,
-                        400,
-                        err.message.toString(),
-                        false
-                    )
+                    return err
                 }
-                return httpResponses(res, 200, result, true)
+                return result
             }
         )
     }

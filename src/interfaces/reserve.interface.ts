@@ -10,7 +10,7 @@ export interface IReserve {
     dateCheck?: Date
     isCheck?: boolean
     checkauthor?: Types.ObjectId
-    _id?:Types.ObjectId
+    _id?: Types.ObjectId
 }
 
 export interface IReserveContract {

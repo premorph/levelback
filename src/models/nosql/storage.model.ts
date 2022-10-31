@@ -1,5 +1,4 @@
-
-import {  Schema, model } from 'mongoose'
+import { Schema, model } from 'mongoose'
 import { IStorage } from '../../interfaces/storage.interface'
 //import mongooseDelete from 'mongoose-delete-ts';
 
@@ -16,9 +15,4 @@ const storageSchema = new Schema<IStorage>(
 )
 
 //storageSchema.plugin(mongooseDelete, { delete: true });
-export const StorageModel = model<IStorage>(
-    'storage',
-    storageSchema
-)
-
-
+export const StorageModel = model<IStorage>('storage', storageSchema)

@@ -1,9 +1,9 @@
 import { Request, Response } from 'express'
 import { matchedData } from 'express-validator'
 import { CallbackError } from 'mongoose'
-import {IStorage,  UserContract} from '../interfaces'
+import { IStorage, UserContract } from '../interfaces'
 import { UserModel } from '../models/nosql/user.model'
-import {encrypt} from '../utils/'
+import { encrypt } from '../utils/'
 
 class UserService implements UserContract {
     async CreateUser(req: Request, res: Response): Promise<void> {
@@ -15,20 +15,24 @@ class UserService implements UserContract {
             if (err) {
                 return res.send(err)
             }
-            res.send(result)
         })
     }
-    async ChargeProfile(data:IStorage,res:Response): Promise<void>{
-    const user ={
-        _id:data.fileOwner,
-        avatar:data?._id
-    }
-        await UserModel.findByIdAndUpdate(user._id,{avatar:user.avatar},(err:any,result:any)=>{
-
-            console.log(result)
-            return result
-
-        })
+    async ChargeProfile(data: IStorage): Promise<void> {
+        const user = {
+            _id: data.fileOwner,
+            avatar: data?._id,
+        }
+        console.log(user)
+        await UserModel.updateOne(
+            { _id: user._id },
+            { avatar: user.avatar },
+            (err: any, result: any) => {
+                if (err) {
+                    console.log(err)
+                }
+                return result
+            }
+        )
     }
     async GetUsers(req: Request, res: Response): Promise<void> {
         const users: any = await UserModel.FindAllData()
@@ -39,7 +43,7 @@ class UserService implements UserContract {
     }
     async GetUser(req: Request, res: Response): Promise<void> {
         const { _id } = req.params
-       const user= await UserModel.findOne({_id})
+        const user = await UserModel.findOne({ _id })
         res.send(user)
     }
     async UpdateUser(req: Request, res: Response): Promise<void> {

@@ -1,50 +1,51 @@
-import {Model, model, Schema} from "mongoose";
-import { IUser } from "../../interfaces";
-
-interface UserModelExt extends Model<IUser>{
-FindAllData():void;
-FindData():void
+import { Model, model, Schema } from 'mongoose'
+import { IUser } from '../../interfaces'
+import mongooseDelete from 'mongoose-delete'
+interface UserModelExt extends Model<IUser> {
+    FindAllData(): void
+    FindData(): void
 }
-const userSchema = new Schema<IUser>({
-    name:{type:String, require:true},
-    lastname:{type:String, require:true},
-    email:{type:String, require:true},
-    password:{type:String, require:true},
-    role:{ type:['user','admin','restaurant'],default:'user'},
-    status:{ type:['active','inactive','reported'],default:'active'},
-    avatar:{ type:Schema.Types.ObjectId}
-},   {timestamps:true,
-    versionKey:false
-})
+const userSchema = new Schema<IUser>(
+    {
+        name: { type: String, require: true },
+        lastname: { type: String, require: true },
+        email: { type: String, require: true },
+        password: { type: String, require: true },
+        role: { type: ['user', 'admin', 'restaurant'], default: 'user' },
+        status: { type: ['active', 'inactive', 'reported'], default: 'active' },
+        avatar: { type: Schema.Types.ObjectId },
+    },
+    { timestamps: true, versionKey: false }
+)
 
-userSchema.static('FindAllData',function(){
+userSchema.static('FindAllData', function () {
     const joinData = this.aggregate([
-       {
-            $lookup:{
+        {
+            $lookup: {
                 from: 'storages',
-                localField: 'avatar',
-                foreignField: '_id',
-                as: 'media'
-            }
-        }
+                localField: '_id',
+                foreignField: 'fileOwner',
+                as: 'avatar',
+            },
+        },
     ])
     return joinData
 })
-userSchema.static('FindData',function(_id){
+userSchema.static('FindData', function (_id) {
     const joinData = this.aggregate([
         {
-        $match:_id
+            $match: _id,
         },
         {
-           $lookup:{
-               from:'storages',
-               localField:'fileOwner',
-               foreignField:'avatar',
-               as:'avatar'
-           }
-        }
+            $lookup: {
+                from: 'storages',
+                localField: '_id',
+                foreignField: 'fileOwner',
+                as: 'avatar',
+            },
+        },
     ])
     return joinData
 })
-export const UserModel =model<IUser,UserModelExt>('user',userSchema)
-
+userSchema.plugin(mongooseDelete, { overrideMethods: 'all' })
+export const UserModel = model<IUser, UserModelExt>('user', userSchema)

@@ -1,12 +1,12 @@
-import { query} from "express-validator";
-import {NextFunction, Request, Response} from "express";
-import {validateResult} from "../utils";
+import { query } from 'express-validator'
+import { NextFunction, Request, Response } from 'express'
+import { validateResult } from '../utils'
 
-const validatorCreateStorage=[
+const validatorCreateStorage = [
     query('typeF').exists().notEmpty(),
     query('fileOwner').exists().notEmpty(),
-    (req:Request,res:Response,next:NextFunction)=>{
-    return validateResult(req,res,next)
-    }
+    (req: Request, res: Response, next: NextFunction) => {
+        return validateResult(req, res, next)
+    },
 ]
-export {validatorCreateStorage}
+export { validatorCreateStorage }

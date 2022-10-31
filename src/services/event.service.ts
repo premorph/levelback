@@ -2,16 +2,16 @@ import { Request, Response } from 'express'
 import { matchedData } from 'express-validator'
 import { CallbackError, Error } from 'mongoose'
 import { EventModel } from '../models/nosql/event.model'
-import {  IStorage, IEvent } from '../interfaces'
-import {httpResponses} from "../utils";
+import { IStorage, IEvent } from '../interfaces'
+import { httpResponses } from '../utils'
 
 class EventService {
     async GetEvents(_req: Request, res: Response) {
         await EventModel.find((err, result) => {
             if (err) {
-                res.send(err)
+                return httpResponses(res, 400, err.message.toString(), false)
             }
-            return res.status(200).json({ ok: true, data: result })
+            return httpResponses(res, 200, result, true)
         })
     }
     async GetEvent(req: Request, res: Response) {
@@ -20,24 +20,32 @@ class EventService {
             { id, eventId },
             (err: Error, result: IEvent) => {
                 if (err) {
-                    res.send(err)
+                    return httpResponses(
+                        res,
+                        400,
+                        err.message.toString(),
+                        false
+                    )
                 }
-                return res.status(200).json({ ok: true, data: result })
+                return httpResponses(res, 200, result, true)
             }
         )
     }
-    async ChargeEventPicture(data: IStorage, res: Response): Promise<void> {
+    async ChargeEventPicture(data: IStorage): Promise<void> {
         const value: IEvent = {
             _id: data.fileOwner,
             mediaID: data._id,
         }
-        await EventModel.updateOne(value._id,{mediaID:value.mediaID},(err:any,result:any)=>{
-            if(err){
-                return httpResponses(res,400,err.message.toString(),false)
+        await EventModel.updateOne(
+            value._id,
+            { mediaID: value.mediaID },
+            (err: any, result: any) => {
+                if (err) {
+                    return err
+                }
+                return result
             }
-            return httpResponses(res,200,result,true)
-
-        })
+        )
     }
     CreateEvent(req: Request, res: Response) {
         try {
@@ -46,18 +54,19 @@ class EventService {
                 { event },
                 (err: CallbackError, result: IEvent) => {
                     if (err) {
-                        res.status(400).json({ ok: false, Error: err })
+                        return httpResponses(
+                            res,
+                            400,
+                            err.message.toString(),
+                            false
+                        )
                     }
-                    res.status(200).send(result)
+                    return httpResponses(res, 200, result, true)
                 }
             )
-        } catch (error) {
-            res.status(401).json({
-                ok: false,
-                error,
-            })
+        } catch (err: any) {
+            return httpResponses(res, 400, err.message.toString(), false)
         }
     }
 }
-
 export { EventService }

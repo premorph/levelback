@@ -9,24 +9,24 @@ const router: Router = Router()
  * @returns name file without extension
  */
 function removeExtension(file: string): string {
-  const cleanName = <string>file.split('.').shift()
-  return cleanName
+    const cleanName = <string>file.split('.').shift()
+    return cleanName
 }
 /**
  *
  * @param filename file pure of directiory
  */
 function loadRoutes(filename: string): void {
-  const name = removeExtension(filename)
-  if (name !== 'index' && name !=="helper") {
-    import(`./${filename}`).then((routerModule) =>
-      router.use(`/${name}`, routerModule.router)
-    )
-  }
+    const name = removeExtension(filename)
+    if (name !== 'index' && name !== 'helper') {
+        import(`./${filename}`).then((routerModule) =>
+            router.use(`/${name}`, routerModule.router)
+        )
+    }
 }
 
 readdirSync(path__routes).filter((file) => {
-  loadRoutes(file)
+    loadRoutes(file)
 })
 
 export { router }

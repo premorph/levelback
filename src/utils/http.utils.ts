@@ -1,14 +1,13 @@
-import {  Response } from "express"
+import { Response } from 'express'
 
-declare type status = 200 | 400 | 500
+declare type status = 200 | 400 | 500 | 401 | 403
 const httpResponses = (
-  res: Response,
-  status: status,
-  data: any,
-  ok:boolean
+    res: Response,
+    status: status,
+    data: any,
+    ok: boolean
 ) => {
-    
-    res.status(status).send({ok,data:data})
+    res.status(status).send({ ok, data: data })
 }
 
-export {httpResponses}
+export { httpResponses }

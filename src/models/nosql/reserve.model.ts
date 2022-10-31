@@ -19,21 +19,24 @@ const reserveSchema = new Schema<IReserve>(
 )
 reserveSchema.static('findReserveById', function (id) {
     const joinData = this.aggregate([
-      {
-        $match: {
-          _id: id,
+        {
+            $match: {
+                _id: id,
+            },
         },
-      },
-      {
-        $lookup: {
-          from: "storages", //TODO Tracks --> storages
-          localField: "imagePay", //TODO Tracks.mediaId
-          foreignField: "fileOwner", //TODO Straoges._id
-          as: "Reference", //TODO Alias!
+        {
+            $lookup: {
+                from: 'storages', //TODO Tracks --> storages
+                localField: 'imagePay', //TODO Tracks.mediaId
+                foreignField: 'fileOwner', //TODO Straoges._id
+                as: 'Reference', //TODO Alias!
+            },
         },
-      },
     ])
     return joinData
 })
 
-export const ReserveModel = model<IReserve,reserveModelExt>('reserve', reserveSchema)
+export const ReserveModel = model<IReserve, reserveModelExt>(
+    'reserve',
+    reserveSchema
+)

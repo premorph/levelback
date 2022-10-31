@@ -1,3 +1,3 @@
 export interface ISqlConfig {
-  initialize(): Promise<void>
+    initialize(): Promise<void>
 }
